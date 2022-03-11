@@ -30,6 +30,9 @@ function login.onLogin(player)
 		player:setVocation(vocation:getDemotion())
 	end
 
+	local playerId = player:getId()
+	DailyReward.init(playerId)
+
 	-- Events
 	player:registerEvent("PlayerDeath")
 	player:registerEvent("DropLoot")
