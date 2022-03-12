@@ -1,7 +1,7 @@
 local serverInfo = TalkAction("!serverinfo")
 
 function serverInfo.onSay(player, words, param)
-	player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Server Info:"
+	player:popupFYI( "Server Info: \n"
 	.. "\nExp rate: " .. getRateFromTable(experienceStages, player:getLevel(), configManager.getNumber(configKeys.RATE_EXP))
 	.. "\nSkill rate: " .. configManager.getNumber(configKeys.RATE_SKILL)
 	.. "\nMagic rate: " .. configManager.getNumber(configKeys.RATE_MAGIC)

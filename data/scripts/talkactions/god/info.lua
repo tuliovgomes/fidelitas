@@ -1,4 +1,4 @@
-local info = TalkAction("/info")
+local info = TalkAction("/infoPlayer")
 
 function info.onSay(player, words, param)
 	local target = Player(param)
