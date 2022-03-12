@@ -85,7 +85,7 @@ monster.attacks = {
 	{name ="combat", interval = 1000, chance = 6, type = COMBAT_LIFEDRAIN, minDamage = -101, maxDamage = -300, range = 1},
 	{name ="speed", interval = 1000, chance = 18, speed = {min = -800, max = -800}, duration = 5000, range = 7, effect = CONST_ME_MAGIC_RED},
 	{name ="drunk", interval = 1000, chance = 10, drunkenness = 25, duration = 10000, range = 7, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYAREA},
-	{name ="outfit", interval = 1000, chance = 9, monster = "chicken", duration = 5000, range = 7, effect = CONST_ME_MAGIC_BLUE},
+	{name ="outfit", interval = 1000, chance = 9, outfitMonster = "Son of Ancalagon", duration = 5000, range = 7, effect = CONST_ME_MAGIC_BLUE},
 	{name ="combat", interval = 800, chance = 30, type = COMBAT_EARTHDAMAGE, minDamage = -266, maxDamage = -300, radius = 6, target = false, effect = CONST_ME_POISONAREA},
 	{name ="poisonfield", interval = 1000, chance = 13, range = 7, radius = 1, target = true, shootEffect = CONST_ANI_POISON}
 }

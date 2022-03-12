@@ -1,4 +1,4 @@
-local mType = Game.createMonsterType("azazel")
+local mType = Game.createMonsterType("Azazel")
 local monster = {}
 
 monster.name = "Azazel"
@@ -84,7 +84,7 @@ monster.attacks = {
 	{name ="combat", interval = 1000, chance = 28, type = COMBAT_PHYSICALDAMAGE, minDamage = -590, maxDamage = -1699, range = 7, radius = 7, target = false, effect = CONST_ME_BLOCKHIT},
 	{name ="combat", interval = 1000, chance = 30, type = COMBAT_FIREDAMAGE, minDamage = -1050, maxDamage = -2350, length = 8, spread = 3, effect = CONST_ME_FIREATTACK},
 	{name ="combat", interval = 1500, chance = 34, type = COMBAT_LIFEDRAIN, minDamage = -700, maxDamage = -1899, radius = 1, target = true, shootEffect = CONST_ANI_WHIRLWINDAXE, effect = CONST_ME_STUN},
-	{name ="outfit", interval = 3000, chance = 15, monster = "deer", duration = 12000, range = 7, effect = CONST_ME_SMOKE}
+	{name ="outfit", interval = 3000, chance = 15, outfitMonster = "Acid Blob", duration = 12000, range = 7, effect = CONST_ME_SMOKE}
 }
 
 monster.defenses = {

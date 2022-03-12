@@ -90,9 +90,10 @@ monster.attacks = {
 monster.defenses = {
 	defense = 23,
 	armor = 17,
-	{name ="outfit", interval = 5000, chance = 60, monster = "defiler", duration = 1000000, effect = CONST_ME_MAGIC_BLUE},
-	{name ="outfit", interval = 2000, chance = 60, monster = "ice golem", duration = 1000000, effect = CONST_ME_MAGIC_BLUE},
-	{name ="outfit", interval = 2000, chance = 60, monster = "spirit of fire", duration = 1000000, effect = CONST_ME_MAGIC_BLUE},
+	{name ="outfit", interval = 1500, chance = 40, effect = CONST_ME_MAGIC_BLUE, target = false, duration = 3000, outfitMonster = "Azazel"},
+	{name ="outfit", interval = 1500, chance = 40, effect = CONST_ME_MAGIC_BLUE, target = false, duration = 3000, outfitMonster = "Achilles"},
+	{name ="outfit", interval = 1500, chance = 40, effect = CONST_ME_MAGIC_BLUE, target = false, duration = 3000, outfitMonster = "Baalrog"},
+	{name ="outfit", interval = 1500, chance = 40, effect = CONST_ME_MAGIC_BLUE, target = false, duration = 3000, outfitMonster = "Gaz'Haragoth"},
 	{name ="invisible", interval = 10000, chance = 30, duration = 1000, effect = CONST_ME_MAGIC_RED}
 }
 

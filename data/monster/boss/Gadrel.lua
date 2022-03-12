@@ -81,7 +81,7 @@ monster.elements = {
 
 monster.attacks = {
 	{name ="melee", interval = 1500, chance = 100, minDamage = -800, maxDamage = -2500},
-	{name ="Death", interval = 4500, chance = 10, minDamage = -3000, maxDamage = -4500, range = 7, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_MORTAREA},
+	{name ="sudden death rune", interval = 4500, chance = 10, minDamage = -3000, maxDamage = -4500, range = 7, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_MORTAREA},
 	{name ="combat", interval = 3000, chance = 30, type = COMBAT_DEATHDAMAGE, minDamage = -2000, maxDamage = -3500, range = 10, radius = 7, target = false, effect = CONST_ME_MORTAREA},
 	{name ="speed", interval = 6000, chance = 12, speed = {min = -1850, max = -1850}, duration = 60000, radius = 6, target = false, effect = CONST_ME_MAGIC_GREEN},
 	{name ="drunk", interval = 10000, chance = 8, drunkenness = 25, duration = 10000, range = 7, shootEffect = CONST_ANI_SUDDENDEATH, effect = CONST_ME_MORTAREA}
