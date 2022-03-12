@@ -31,6 +31,8 @@
 	<event class="Player" method="onStorageUpdate" enabled="1" />
 	<event class="Player" method="onTradeAccept" enabled="1" />
 	<event class="Player" method="onTurn" enabled="1" /><!-- Move with ( ctrl + arrows ) like to TFS 0.3.x : 0.4 -->
+	<event class="Player" method="onMoveCreature" enabled="1" />
+	<event class="Player" method="onMoveItem" enabled="1" /><!-- Protections on rewardsystem and global depots -->
 	<event class="Player" method="onCombat" enabled="1" />
 	<event class="Player" method="onRemoveCount" enabled="1" /><!-- Tibia 11 function -->
 

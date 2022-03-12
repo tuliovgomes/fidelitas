@@ -124,7 +124,122 @@ function Player:onMoveItem(item, count, fromPosition, toPosition, fromCylinder, 
 		end
 	end
 
+	-- No move items with actionID = 100
+	if item:getActionId() == NOT_MOVEABLE_ACTION then
+		self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+		return false
+	end
+
+	-- No move if item count > 20 items
+	local tile = Tile(toPosition)
+	if tile and tile:getItemCount() > 20 then
+		self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+		return false
+	end
+
+	-- No move parcel very heavy
+	if CONTAINER_WEIGHT_CHECK and ItemType(item:getId()):isContainer()
+	and item:getWeight() > CONTAINER_WEIGHT_MAX then
+		self:sendCancelMessage("Your cannot move this item too heavy.")
+		return false
+	end
+
+	-- Players cannot throw items on teleports
+	if blockTeleportTrashing and toPosition.x ~= CONTAINER_POSITION then
+		local thing = Tile(toPosition):getItemByType(ITEM_TYPE_TELEPORT)
+		if thing then
+			self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+			self:getPosition():sendMagicEffect(CONST_ME_POFF)
+			return false
+		end
+	end
+
+	-- SSA exhaust
+	local exhaust = { }
+	if toPosition.x == CONTAINER_POSITION and toPosition.y == CONST_SLOT_NECKLACE
+	and item:getId() == ITEM_STONE_SKIN_AMULET then
+		local pid = self:getId()
+		if exhaust[pid] then
+			self:sendCancelMessage(RETURNVALUE_YOUAREEXHAUSTED)
+			return false
+		else
+			exhaust[pid] = true
+			addEvent(function() exhaust[pid] = false end, 2000, pid)
+			return true
+		end
+	end
+
+	-- Store Inbox
+	local containerIdFrom = fromPosition.y - 64
+	local containerFrom = self:getContainerById(containerIdFrom)
+	if (containerFrom) then
+		if (containerFrom:getId() == ITEM_STORE_INBOX
+		and toPosition.y >= 1 and toPosition.y <= 11 and toPosition.y ~= 3) then
+			self:sendCancelMessage(RETURNVALUE_CONTAINERNOTENOUGHROOM)
+			return false
+		end
+	end
+
+	local containerTo = self:getContainerById(toPosition.y-64)
+	if (containerTo) then
+		if (containerTo:getId() == ITEM_STORE_INBOX) or (containerTo:getParent():isContainer() and containerTo:getParent():getId() == ITEM_STORE_INBOX and containerTo:getId() ~= ITEM_GOLD_POUCH) then
+			self:sendCancelMessage(RETURNVALUE_CONTAINERNOTENOUGHROOM)
+			return false
+		end
+		-- Gold Pouch
+		if (containerTo:getId() == ITEM_GOLD_POUCH) then
+			if (not (item:getId() == ITEM_CRYSTAL_COIN or item:getId() == ITEM_PLATINUM_COIN
+			or item:getId() == ITEM_GOLD_COIN)) then
+				self:sendCancelMessage("You can move only money to this container.")
+				return false
+			end
+		end
+	end
+
+	-- Reward System
+	if toPosition.x == CONTAINER_POSITION then
+		local containerId = toPosition.y - 64
+		local container = self:getContainerById(containerId)
+		if not container then
+			return true
+		end
+
+		-- Do not let the player insert items into either the Reward Container or the Reward Chest
+		local itemId = container:getId()
+		if itemId == ITEM_REWARD_CONTAINER or itemId == ITEM_REWARD_CHEST then
+			self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+			return false
+		end
+
+		-- The player also shouldn't be able to insert items into the boss corpse
+		local tileCorpse = Tile(container:getPosition())
+		for index, value in ipairs(tileCorpse:getItems() or { }) do
+			if value:getAttribute(ITEM_ATTRIBUTE_CORPSEOWNER) == 2^31 - 1 and value:getName() == container:getName() then
+				self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+				return false
+			end
+		end
+	end
+
+	-- Do not let the player move the boss corpse.
+	if item:getAttribute(ITEM_ATTRIBUTE_CORPSEOWNER) == 2^31 - 1 then
+		self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+		return false
+	end
+
+	-- Players cannot throw items on reward chest
+	local tileChest = Tile(toPosition)
+	if tileChest and tileChest:getItemById(ITEM_REWARD_CHEST) then
+		self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+		self:getPosition():sendMagicEffect(CONST_ME_POFF)
+		return false
+	end
+
 	return true
+end
+
+function Player:onStorageUpdate(key, value, oldValue, currentFrameTime)
+	self:updateStorage(key, value, oldValue, currentFrameTime)
 end
 
 function Player:onItemMoved(item, count, fromPosition, toPosition, fromCylinder, toCylinder)

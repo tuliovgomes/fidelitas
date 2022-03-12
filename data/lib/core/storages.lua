@@ -39,7 +39,9 @@ Storage = {
 	Imbuement = 30004,
 	FamiliarSummon = 30005,
 	FamiliarSummonEvent10 = 30006,
-	FamiliarSummonEvent60 = 30007
+	FamiliarSummonEvent60 = 30007,
+	ChayenneReward = 30033,
+	PremiumAccount = 30058
 }
 
 GlobalStorage = {
