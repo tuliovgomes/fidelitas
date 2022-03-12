@@ -76,11 +76,11 @@ monster.loot = {
 	{name = "platinum coin", chance = 100000, maxCount = 5},
 	{name = "spectral silver nugget", chance = 17110, maxCount = 2},
 	{name = "wand of starstorm", chance = 13160, maxCount = 10},
-	{name = "lightning pendant", chance = 9210},
+	{name = "Aghanim pendant", chance = 9210},
 	{name = "emerald bangle", chance = 3950},
 	{name = "strange talisman", chance = 2630},
 	{name = "wand of defiance", chance = 2630},
-	{name = "lightning headband", chance = 1320}
+	{name = "Aghanim mask", chance = 1320}
 }
 
 monster.attacks = {

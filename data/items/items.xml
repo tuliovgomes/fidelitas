@@ -905,6 +905,10 @@
 		<attribute key="healthTicks" value="3500" />
 		<attribute key="manaGain" value="50" />
 		<attribute key="manaTicks" value="3500" />
+		<attribute key="skillmanaamount" value="10"/>
+		<attribute key="skillmanachance" value="30"/>
+		<attribute key="skilllifeamount" value="5"/>
+		<attribute key="skilllifechance" value="20"/>
 		<attribute key="description" value="Increases mana/life regen" />
 	</item>
 	<item id="646" article="an" name="elvenhair rope">
@@ -6845,8 +6849,8 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="armor" value="10"/>
 		<attribute key="weight" value="1200"/>
-		<attribute key="absorbPercentEnergy" value="10" />
-		<attribute key="speed" value="10" />
+		<attribute key="absorbpercentall" value="1"/>
+		<attribute key="speed" value="60" />
 		<attribute key="upgradeclassification" value="4"/>
 	</item>
 	<item id="3369" article="a" name="warrior helmet">
@@ -14132,8 +14136,9 @@
 	<item id="6432" article="a" name="necromancer shield">
 		<attribute key="description" value="It is enchanted with unholy, necromantic powers"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="defense" value="37"/>
+		<attribute key="defense" value="45"/>
 		<attribute key="weight" value="3200"/>
+		<attribute key="absorbPercentAll" value="7" />
 		<attribute key="imbuementslot" value="1">
 			<attribute key="elemental protection death" value="3"/>
 			<attribute key="elemental protection earth" value="3"/>
@@ -17297,6 +17302,8 @@
 		<attribute key="absorbPercentall" value="3" />
 		<attribute key="armor" value="22"/>
 		<attribute key="skillShield" value="8" />
+		<attribute key="skilllifeamount" value="20"/>
+		<attribute key="skilllifechance" value="30"/>
 		<attribute key="weight" value="11000"/>
 		<attribute key="upgradeclassification" value="2"/>
 	</item>
@@ -17308,13 +17315,17 @@
 		<attribute key="weight" value="3100"/>
 		<attribute key="upgradeclassification" value="2"/>
 	</item>
-	<item id="8063" article="a" name="paladin armor">
+	<item id="8063" article="a" name="Legolas Plate">
 		<attribute key="slotType" value="body"/>
 		<attribute key="skilldist" value="8"/>
 		<attribute key="absorbPercentAll" value="6" />
 		<attribute key="armor" value="12"/>
 		<attribute key="weight" value="6500"/>
 		<attribute key="upgradeclassification" value="2"/>
+		<attribute key="skillmanaamount" value="3"/>
+		<attribute key="skillmanachance" value="20"/>
+		<attribute key="skilllifeamount" value="15"/>
+		<attribute key="skilllifechance" value="30"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="life leech" value="3"/>
 			<attribute key="elemental protection death" value="3"/>
@@ -17393,21 +17404,20 @@
 		<attribute key="defense" value="30"/>
 		<attribute key="weight" value="6900"/>
 	</item>
-	<item id="8078" article="a" name="fiery rainbow shield">
-		<attribute key="description" value="It has been temporarily imbued with fire magic and boosts your shielding skill"/>
+	<item id="8078" article="a" name="cerberus shield">
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="skillshield" value="3"/>
-		<attribute key="duration" value="1200"/>
-		<attribute key="decayTo" value="8905"/>
-		<attribute key="defense" value="36"/>
+		<attribute key="absorbPercentDeath" value="12" />
+		<attribute key="absorbPercentEarth" value="12" />
+		<attribute key="absorbPercentFire" value="12" />
+		<attribute key="defense" value="48"/>
 		<attribute key="weight" value="6900"/>
 	</item>
-	<item id="8079" article="an" name="icy rainbow shield">
-		<attribute key="description" value="It has been temporarily imbued with ice magic and has a greatly increased shielding value"/>
+	<item id="8079" article="an" name="permafrost shield">
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="duration" value="1200"/>
-		<attribute key="decayTo" value="8905"/>
-		<attribute key="defense" value="39"/>
+		<attribute key="absorbPercentIce" value="12" />
+		<attribute key="absorbPercentEnergy" value="12" />
+		<attribute key="absorbPercentHoly" value="12" />
+		<attribute key="defense" value="49"/>
 		<attribute key="weight" value="6900"/>
 	</item>
 	<item id="8080" article="a" name="sparking rainbow shield">
@@ -18504,7 +18514,7 @@
 		<attribute key="skillShield" value="4" />
 		<attribute key="upgradeclassification" value="2"/>
 	</item>
-	<item id="8863" article="a" name="Valar legs">
+	<item id="8863" article="a" name="Valar kilt">
 		<attribute key="slotType" value="legs"/>
 		<attribute key="absorbpercentmagic" value="6" />
 		<attribute key="skilldist" value="2"/>
@@ -18513,17 +18523,20 @@
 	</item>
 	<item id="8864" article="a" name="Valar mask">
 		<attribute key="slotType" value="head"/>
-		<attribute key="magicpoints" value="2"/>
+		<attribute key="magicpoints" value="6"/>
 		<attribute key="absorbpercentelements" value="6" />
 		<attribute key="armor" value="15"/>
 		<attribute key="manaGain" value="25" />
 		<attribute key="manaTicks" value="5000" />
+		<attribute key="skillmanaamount" value="15"/>
+		<attribute key="skillmanachance" value="35"/>
 		<attribute key="weight" value="3500"/>
 		<attribute key="upgradeclassification" value="2"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="mana leech" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
+		<attribute key="description" value="Increases mana/life regen" />
 	</item>
 	<item id="8865" article="a" name="crystal column"/>
 	<item id="8866" article="a" name="dead unknown">
@@ -18945,12 +18958,15 @@
 		<attribute key="transformdeequipto" value="9019"/>
 		<attribute key="armor" value="4"/>
 		<attribute key="weight" value="950"/>
+		<attribute key="description" value="Increases mana/life regen" />
 	</item>
 	<item id="9019" article="a" name="firewalker boots">
 		<attribute key="slotType" value="feet"/>
+		<attribute key="absorbPercentAll" value="5" />
 		<attribute key="transformequipto" value="9018"/>
 		<attribute key="armor" value="4"/>
 		<attribute key="weight" value="950"/>
+		<attribute key="description" value="Increases mana/life regen" />
 	</item>
 	<item id="9020" name="worn firewalker boots">
 		<attribute key="description" value="They can be recharged with an enchanted ruby"/>
@@ -21579,7 +21595,7 @@
 			<attribute key="increase speed" value="3"/>
 		</attribute>
 	</item>
-	<item id="10387" article="a" name="Zaoan legs">
+	<item id="10387" article="a" name="zenit legs">
 		<attribute key="slotType" value="legs"/>
 		<attribute key="absorbPercentPhysical" value="7" />
 		<attribute key="maxHitPoints" value="100" />
@@ -25617,10 +25633,9 @@
 	</item>
 	<item id="13993" article="an" name="ornate chestplate">
 		<attribute key="slotType" value="body"/>
-		<attribute key="showAttributes" value="1"/>
-		<attribute key="absorbpercentphysical" value="8"/>
-		<attribute key="skillshield" value="3"/>
-		<attribute key="armor" value="16"/>
+		<attribute key="absorbpercentall" value="4"/>
+		<attribute key="skillshield" value="8"/>
+		<attribute key="armor" value="23"/>
 		<attribute key="weight" value="15600"/>
 		<attribute key="upgradeclassification" value="2"/>
 		<attribute key="imbuementslot" value="2">
@@ -25635,10 +25650,9 @@
 	</item>
 	<item id="13994" article="a" name="depth lorica">
 		<attribute key="slotType" value="body"/>
-		<attribute key="showAttributes" value="1"/>
-		<attribute key="absorbpercentdeath" value="5"/>
-		<attribute key="skilldist" value="3"/>
-		<attribute key="armor" value="16"/>
+		<attribute key="absorbpercentall" value="4"/>
+		<attribute key="skilldist" value="8"/>
+		<attribute key="armor" value="23"/>
 		<attribute key="weight" value="14500"/>
 		<attribute key="upgradeclassification" value="2"/>
 		<attribute key="imbuementslot" value="2">
@@ -25651,25 +25665,21 @@
 		</attribute>
 	</item>
 	<item id="13995" article="a" name="depth galea">
-		<attribute key="description" value="Enables underwater exploration"/>
 		<attribute key="slotType" value="head"/>
-		<attribute key="absorbpercentdrown" value="100"/>
-		<attribute key="armor" value="8"/>
+		<attribute key="absorbpercentall" value="5"/>
+		<attribute key="armor" value="12"/>
 		<attribute key="weight" value="4600"/>
 	</item>
 	<item id="13996" article="a" name="depth ocrea">
 		<attribute key="slotType" value="legs"/>
-		<attribute key="showAttributes" value="1"/>
-		<attribute key="absorbpercentmanadrain" value="15"/>
-		<attribute key="armor" value="8"/>
+		<attribute key="absorbpercentall" value="5"/>
+		<attribute key="armor" value="12"/>
 		<attribute key="weight" value="4800"/>
 	</item>
 	<item id="13997" article="a" name="depth calcei">
 		<attribute key="slotType" value="feet"/>
-		<attribute key="showAttributes" value="1"/>
-		<attribute key="absorbpercentphysical" value="5"/>
-		<attribute key="speed" value="-10"/>
-		<attribute key="armor" value="3"/>
+		<attribute key="absorbpercentall" value="5"/>
+		<attribute key="armor" value="4"/>
 		<attribute key="weight" value="3700"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="increase speed" value="3"/>
@@ -25693,16 +25703,15 @@
 	</item>
 	<item id="13999" article="an" name="ornate legs">
 		<attribute key="slotType" value="legs"/>
-		<attribute key="showAttributes" value="1"/>
-		<attribute key="absorbpercentphysical" value="5"/>
-		<attribute key="armor" value="8"/>
+		<attribute key="absorbpercentall" value="4"/>
+		<attribute key="armor" value="13"/>
 		<attribute key="weight" value="7700"/>
 	</item>
 	<item id="14000" article="an" name="ornate shield">
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="showAttributes" value="1"/>
-		<attribute key="absorbpercentphysical" value="5"/>
-		<attribute key="defense" value="36"/>
+		<attribute key="absorbpercentall" value="7"/>
+		<attribute key="defense" value="46"/>
 		<attribute key="weight" value="7100"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="elemental protection death" value="3"/>
@@ -48997,10 +49006,9 @@
 	<item id="31617" name="winged boots">
 		<attribute key="slotType" value="feet"/>
 		<attribute key="showAttributes" value="1"/>
-		<attribute key="absorbpercentpoison" value="7"/>
-		<attribute key="skilldist" value="1"/>
-		<attribute key="speed" value="30"/>
+		<attribute key="speed" value="140"/>
 		<attribute key="armor" value="2"/>
+		<attribute key="absorbpercentall" value="2"/>
 		<attribute key="weight" value="1200"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="increase speed" value="3"/>

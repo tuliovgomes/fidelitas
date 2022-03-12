@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = false,
 	boss = false,
+	rewardBoss = true,
 	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
@@ -96,13 +97,31 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = 11296, chance = 1004, description = "Zenit helmet"},
-	{id = 9776, chance = 903, description = "Divine Cuirass"},
-	{id = 9777, chance = 802, description = "Valar kilt"},
-	{id = 9932, chance = 901, description = "firewalker boots"},
-	{id = 2425, chance = 605, description = "aiglos"},
-	{id = 8906, chance = 906, description = "cerberus shield"},
-	{id = 6528, chance = 507, description = "narsil"}
+	{name = "Zenit helmet", chance = 1004},
+	{name = "Valar plate", chance = 903},
+	{name = "Valar kilt", chance = 802},
+	{name = "firewalker boots", chance = 901},
+	-- {name = "aiglos", chance = 605},
+	{name = "cerberus shield", chance = 906},
+	-- {name = "narsil", chance = 507}
 }
+
+mType.onThink = function(monster, interval)
+end
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
+
+mType.onDisappear = function(monster, creature)
+end
+
+mType.onMove = function(monster, creature, fromPosition, toPosition)
+end
+
+mType.onSay = function(monster, creature, type, message)
+end
 
 mType:register(monster)

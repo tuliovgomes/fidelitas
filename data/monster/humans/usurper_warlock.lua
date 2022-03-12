@@ -90,7 +90,7 @@ monster.loot = {
 	{name = "black pearl", chance = 5778},
 	{id = 281, chance = 5556},
 	{name = "terra hood", chance = 4667},
-	{name = "lightning headband", chance = 3778},
+	{name = "Aghanim mask", chance = 3778},
 	{name = "green gem", chance = 3556},
 	{name = "springsprout rod", chance = 2667},
 	{name = "ham", chance = 2444},

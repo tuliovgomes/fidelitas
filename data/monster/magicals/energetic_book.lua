@@ -80,14 +80,14 @@ monster.loot = {
 	{name = "Ultimate Mana Potion", chance = 10000, maxCount = 7},
 	{name = "Energy Ball", chance = 900, maxCount = 7},
 	{id = 28566, chance = 800, maxCount = 7},
-	{name = "Lightning Pendant", chance = 500},
-	{name = "Lightning Boots", chance = 500},
-	{name = "Lightning Headband", chance = 500},
+	{name = "Aghanim Pendant", chance = 500},
+	{name = "Aghanim Boots", chance = 500},
+	{name = "Aghanim mask", chance = 500},
 	{name = "Might Ring", chance = 500},
 	{name = "Spellweaver's Robe", chance = 350},
 	{name = "Wand of Defiance", chance = 350},
 	{name = "Haunted Blade", chance = 550},
-	{name = "Lightning Legs", chance = 350}
+	{name = "Aghanim Legs", chance = 350}
 }
 
 monster.attacks = {

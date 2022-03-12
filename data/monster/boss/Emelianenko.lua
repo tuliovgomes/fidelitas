@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	rewardBoss = true,
 	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
@@ -95,14 +96,32 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2470, chance = 804, description = "golden legs"},
-	{id = 2471, chance = 703, description = "golden helmet"},
-	{id = 2646, chance = 902, description = "golden boots"},
-	{id = 2522, chance = 1001, description = "great shield"},
-	{id = 2466, chance = 1001, description = "golden armor"},
-	{id = 7382, chance = 1800, description = "demonrage sword"},
-	{id = 2090, chance = 10000, description = "crytal key"},
-	{id = 2396, chance = 1900, description = "ice rapier"}
+	{name = "golden legs", chance = 804},
+	{name = "golden helmet", chance = 703},
+	{name = "golden boots", chance = 902},
+	{name = "great shield", chance = 1001},
+	{name = "golden armor", chance = 1001},
+	{name = "demonrage sword", chance = 1800},
+	-- {name = "crytal key", chance = 10000},
+	{name = "ice rapier", chance = 1900}
 }
+
+mType.onThink = function(monster, interval)
+end
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
+
+mType.onDisappear = function(monster, creature)
+end
+
+mType.onMove = function(monster, creature, fromPosition, toPosition)
+end
+
+mType.onSay = function(monster, creature, type, message)
+end
 
 mType:register(monster)

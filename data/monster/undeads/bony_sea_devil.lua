@@ -93,7 +93,7 @@ monster.loot = {
 	{name = "rainbow quartz", chance = 13660, maxCount = 2},
 	{id = 33929, chance = 14560}, -- Rod
 	{id = 34014, chance = 14560}, -- Jaws
-	{name = "skullcracker armor", chance = 1680},
+	{name = "khel thuzad skin", chance = 1680},
 	{name = "goblet of gloom", chance = 880},
 	{id = 34109, chance = 50} -- Bag you desire
 }
@@ -104,7 +104,7 @@ monster.attacks = {
 	{name ="combat", interval = 2000, chance = 10, type = COMBAT_ENERGYDAMAGE, minDamage = -400, maxDamage = -1000, radius = 7, effect = CONST_ME_BIGCLOUDS, target = false},
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_ICEDAMAGE, minDamage = -550, maxDamage = -1000, range = 7, shootEffect = CONST_ANI_SNOWBALL, effect = CONST_ME_ICEATTACK, target = true},
 	{name ="combat", interval = 2000, chance = 25, type = COMBAT_ICEDAMAGE, minDamage = -300, maxDamage = -700, range = 7, radius = 5, shootEffect = CONST_ANI_ICE, effect = CONST_ME_ICEAREA, target = true}
-	-- Fear 
+	-- Fear
 	-- Chain: const_me-> CONST_ME_ICEATTACK, combat_t->COMBAT_ICEDAMAGE
 
 }

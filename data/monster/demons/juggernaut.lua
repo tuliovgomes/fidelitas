@@ -95,7 +95,7 @@ monster.loot = {
 	{name = "heavy mace", chance = 400},
 	{name = "war axe", chance = 400},
 	{name = "golden armor", chance = 550},
-	{name = "golden legs", chance = 500},
+	{name = "golden legs", chance = 100},
 	{name = "knight armor", chance = 4990},
 	{name = "mastermind shield", chance = 800},
 	{id = 3481, chance = 280},
@@ -109,7 +109,7 @@ monster.loot = {
 	{name = "spiked squelcher", chance = 7761},
 	{name = "great mana potion", chance = 35000},
 	{name = "great health potion", chance = 32000},
-	{name = "skullcracker armor", chance = 400},
+	{name = "khel thuzad skin", chance = 200},
 	{name = "gold ingot", chance = 7692, maxCount = 2}
 }
 

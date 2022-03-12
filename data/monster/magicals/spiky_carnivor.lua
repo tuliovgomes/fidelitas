@@ -85,7 +85,7 @@ monster.loot = {
 	{name = "Rainbow Quartz", chance = 8500},
 	{name = "Blue Robe", chance = 8000},
 	{name = "Glacier Amulet", chance = 7500},
-	{name = "Lightning Pendant", chance = 2200},
+	{name = "Aghanim mask", chance = 2200},
 	{name = "Prismatic Quartz", chance = 6500},
 	{name = "Talon", chance = 6000},
 	{name = "Terra Amulet", chance = 5500},

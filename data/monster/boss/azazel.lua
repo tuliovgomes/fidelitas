@@ -34,6 +34,7 @@ monster.flags = {
 	convinceable = false,
 	illusionable = true,
 	boss = false,
+	rewardBoss = true,
 	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
@@ -94,19 +95,30 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2672, chance = 25000, maxCount = 100, description = "dragom ham"},
-	{id = 2672, chance = 25000, maxCount = 100, description = "dragom ham"},
-	{id = 1987, chance = 100000, description = "bag", child = {
-			{id = 11299, chance = 1502, description = "drakinata"},
-			{id = 11301, chance = 800, description = "chaos blade"},
-			{id = 11295, chance = 1303, description = "zenit cuirass"},
-			{id = 11298, chance = 1401, description = "zenit legs"},
-			{id = 11296, chance = 802, description = "zenit helmet"},
-			{id = 11297, chance = 1503, description = "zenit shoes"},
-			{id = 11302, chance = 1804, description = "drachaku"},
-			{id = 8856, chance = 804, description = "bow"}
-		}
-	}
+	{name = "dragon ham", chance = 25000, maxCount = 100},
+	{name = "dragon ham", chance = 25000, maxCount = 100},
+	{name = "zenit cuirass", chance = 507},
+	{name = "zenit legs", chance = 507},
+	{name = "zenit helmet", chance = 507},
+	{name = "zenit shoes", chance = 507}
 }
+
+mType.onThink = function(monster, interval)
+end
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
+
+mType.onDisappear = function(monster, creature)
+end
+
+mType.onMove = function(monster, creature, fromPosition, toPosition)
+end
+
+mType.onSay = function(monster, creature, type, message)
+end
 
 mType:register(monster)

@@ -93,7 +93,7 @@ monster.loot = {
 	{name = "great mana potion", chance = 10000},
 	{name = "glacier kilt", chance = 330},
 	{name = "ultimate health potion", chance = 9600},
-	{name = "skullcracker armor", chance = 270},
+	{name = "khel thuzad skin", chance = 270},
 	{name = "underworld rod", chance = 910},
 	{id = 8896, chance = 2500},
 	{name = "mystical hourglass", chance = 5300}

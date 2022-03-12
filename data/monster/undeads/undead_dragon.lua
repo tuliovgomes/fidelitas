@@ -101,7 +101,7 @@ monster.loot = {
 	{name = "great mana potion", chance = 21490},
 	{name = "great health potion", chance = 21200},
 	{name = "divine plate", chance = 430},
-	{name = "skullcracker armor", chance = 290},
+	{name = "khel thuzad skin", chance = 290},
 	{name = "gold ingot", chance = 570},
 	{name = "unholy bone", chance = 33380},
 	{name = "spellweaver's robe", chance = 860}
