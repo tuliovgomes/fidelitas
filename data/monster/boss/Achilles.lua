@@ -100,7 +100,7 @@ monster.loot = {
 	{name = "Zenit helmet", chance = 1004},
 	{name = "Valar plate", chance = 903},
 	{name = "Valar kilt", chance = 802},
-	{name = "firewalker boots", chance = 901},
+	{id = 9019, chance = 901},
 	-- {name = "aiglos", chance = 605},
 	{name = "cerberus shield", chance = 906},
 	-- {name = "narsil", chance = 507}

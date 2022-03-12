@@ -899,6 +899,7 @@
 	</item>
 	<item id="645" name="blue legs">
 		<attribute key="slotType" value="legs"/>
+		<attribute key="showAttributes" value="1"/>
 		<attribute key="armor" value="13"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="healthGain" value="25" />
@@ -6801,7 +6802,6 @@
 	<item id="3364" name="golden legs">
 		<attribute key="slotType" value="legs"/>
 		<attribute key="armor" value="14"/>
-		<attribute key="reflectpercentIce" value="3"/>
 		<attribute key="absorbpercentelements" value="10" />
 		<attribute key="weight" value="5600"/>
 	</item>
@@ -21560,8 +21560,8 @@
 	<item id="10384" article="a" name="zenit cuirass">
 		<attribute key="slotType" value="body"/>
 		<attribute key="absorbPercentPhysical" value="14" />
-		<attribute key="maxHitPoints" value="300" />
-		<attribute key="description" value="+300 de Vida Total." />
+		<attribute key="maxhitpointspercent" value="4" />
+		<attribute key="description" value="+4% of life." />
 		<attribute key="armor" value="18"/>
 		<attribute key="weight" value="9550"/>
 		<attribute key="upgradeclassification" value="2"/>
@@ -21569,8 +21569,8 @@
 	<item id="10385" article="a" name="zenit helmet">
 		<attribute key="slotType" value="head"/>
 		<attribute key="absorbPercentPhysical" value="7" />
-		<attribute key="maxHitPoints" value="200" />
-		<attribute key="description" value="+200 de Vida Total." />
+		<attribute key="maxhitpointspercent" value="3" />
+		<attribute key="description" value="+3% of life." />
 		<attribute key="armor" value="9"/>
 		<attribute key="weight" value="6600"/>
 		<attribute key="upgradeclassification" value="2"/>
@@ -21587,8 +21587,8 @@
 		<attribute key="slotType" value="feet"/>
 		<attribute key="speed" value="10"/>
 		<attribute key="absorbPercentPhysical" value="4" />
-		<attribute key="maxHitPoints" value="60" />
-		<attribute key="description" value="+60 de Vida Total." />
+		<attribute key="maxhitpointspercent" value="1" />
+		<attribute key="description" value="+1% of life." />
 		<attribute key="armor" value="2"/>
 		<attribute key="weight" value="700"/>
 		<attribute key="imbuementslot" value="1">
@@ -21598,8 +21598,8 @@
 	<item id="10387" article="a" name="zenit legs">
 		<attribute key="slotType" value="legs"/>
 		<attribute key="absorbPercentPhysical" value="7" />
-		<attribute key="maxHitPoints" value="100" />
-		<attribute key="description" value="+100 de Vida Total." />
+		<attribute key="maxhitpointspercent" value="2" />
+		<attribute key="description" value="+2% of life." />
 		<attribute key="armor" value="11"/>
 		<attribute key="weight" value="6600"/>
 	</item>
@@ -27364,9 +27364,9 @@
 	</item>
 	<item id="16109" article="a" name="prismatic helmet">
 		<attribute key="slotType" value="head"/>
-		<attribute key="absorbpercentphysical" value="5"/>
-		<attribute key="skillshield" value="1"/>
-		<attribute key="armor" value="9"/>
+		<attribute key="absorbpercentphysical" value="12"/>
+		<attribute key="skillshield" value="8"/>
+		<attribute key="armor" value="15"/>
 		<attribute key="weight" value="5600"/>
 		<attribute key="upgradeclassification" value="2"/>
 	</item>
@@ -27374,7 +27374,7 @@
 		<attribute key="slotType" value="body"/>
 		<attribute key="absorbpercentphysical" value="5"/>
 		<attribute key="speed" value="30"/>
-		<attribute key="armor" value="15"/>
+		<attribute key="armor" value="18"/>
 		<attribute key="weight" value="7900"/>
 		<attribute key="upgradeclassification" value="2"/>
 		<attribute key="imbuementslot" value="1">
@@ -27389,16 +27389,16 @@
 	</item>
 	<item id="16111" name="prismatic legs">
 		<attribute key="slotType" value="legs"/>
-		<attribute key="absorbpercentphysical" value="3"/>
-		<attribute key="skilldist" value="2"/>
+		<attribute key="absorbpercentphysical" value="8"/>
+		<attribute key="skilldist" value="8"/>
 		<attribute key="armor" value="8"/>
 		<attribute key="weight" value="7100"/>
 	</item>
 	<item id="16112" name="prismatic boots">
 		<attribute key="slotType" value="feet"/>
 		<attribute key="showAttributes" value="1"/>
-		<attribute key="absorbpercentdeath" value="3"/>
-		<attribute key="speed" value="30"/>
+		<attribute key="absorbpercentdeath" value="6"/>
+		<attribute key="speed" value="60"/>
 		<attribute key="armor" value="3"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
@@ -27436,9 +27436,9 @@
 	<item id="16116" article="a" name="prismatic shield">
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="showAttributes" value="1"/>
-		<attribute key="absorbpercentphysical" value="4"/>
-		<attribute key="skillshield" value="2"/>
-		<attribute key="defense" value="37"/>
+		<attribute key="absorbpercentphysical" value="12"/>
+		<attribute key="skillshield" value="12"/>
+		<attribute key="defense" value="40"/>
 		<attribute key="weight" value="7200"/>
 	</item>
 	<item id="16117" article="a" name="muck rod">
@@ -44475,9 +44475,8 @@
 	</item>
 	<item id="28719" article="a" name="falcon plate">
 		<attribute key="slotType" value="body"/>
-		<attribute key="absorbpercentphysical" value="12"/>
-		<attribute key="skillshield" value="4"/>
-		<attribute key="armor" value="18"/>
+		<attribute key="absorbpercentall" value="10"/>
+		<attribute key="armor" value="25"/>
 		<attribute key="weight" value="18800"/>
 		<attribute key="upgradeclassification" value="4"/>
 		<attribute key="imbuementslot" value="2">
@@ -48864,15 +48863,15 @@
 	</item>
 	<item id="31582" article="a" name="galea mortis">
 		<attribute key="slotType" value="head"/>
-		<attribute key="absorbpercentdeath" value="6"/>
-		<attribute key="absorbpercentholy" value="-3"/>
-		<attribute key="magicpoints" value="2"/>
-		<attribute key="armor" value="7"/>
+		<attribute key="absorbpercentall" value="7"/>
+		<attribute key="armor" value="16"/>
 		<attribute key="weight" value="2300"/>
 		<attribute key="upgradeclassification" value="3"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
 		</attribute>
 	</item>
 	<item id="31583" article="a" name="toga mortis">
@@ -52423,9 +52422,10 @@
 	<item id="34094" article="a" name="soulshell">
 		<attribute key="slotType" value="body"/>
 		<attribute key="loottype" value="armor"/>
-		<attribute key="absorbpercentphysical" value="3"/>
-		<attribute key="absorbpercentfire" value="15"/>
-		<attribute key="skilldist" value="4"/>
+		<attribute key="absorbpercentall" value="10"/>
+		<attribute key="skillclub" value="1"/>
+		<attribute key="skillaxe" value="1"/>
+		<attribute key="skillsword" value="1"/>
 		<attribute key="armor" value="18"/>
 		<attribute key="weight" value="12300"/>
 		<attribute key="upgradeclassification" value="4"/>
@@ -52442,9 +52442,9 @@
 	<item id="34095" article="a" name="soulmantle">
 		<attribute key="slotType" value="body"/>
 		<attribute key="loottype" value="armor"/>
-		<attribute key="absorbpercentphysical" value="4"/>
-		<attribute key="magicpoints" value="4"/>
-		<attribute key="armor" value="17"/>
+		<attribute key="absorbpercentall" value="10"/>
+		<attribute key="magicpoints" value="8"/>
+		<attribute key="armor" value="26"/>
 		<attribute key="weight" value="2400"/>
 		<attribute key="upgradeclassification" value="4"/>
 		<attribute key="imbuementslot" value="2">
@@ -52460,8 +52460,8 @@
 	<item id="34096" article="a" name="soulshroud">
 		<attribute key="slotType" value="body"/>
 		<attribute key="loottype" value="armor"/>
-		<attribute key="absorbpercentdeath" value="10"/>
-		<attribute key="magicpoints" value="4"/>
+		<attribute key="absorbpercentall" value="10"/>
+		<attribute key="skilldist" value="12"/>
 		<attribute key="armor" value="17"/>
 		<attribute key="weight" value="2400"/>
 		<attribute key="upgradeclassification" value="4"/>
