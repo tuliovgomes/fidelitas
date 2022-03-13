@@ -4613,6 +4613,7 @@
 		<attribute key="slotType" value="ring"/>
 		<attribute key="absorbPercentenergy" value="20" />
 		<attribute key="absorbPercentdeath" value="20" />
+		<attribute key="showAttributes" value="1"/>
 		<attribute key="weight" value="40"/>
 	</item>
 	<item id="3007" article="a" name="crystal ring">
@@ -13673,15 +13674,15 @@
 	<item fromid="6284" toid="6285" name="some cracks"/>
 	<item fromid="6288" toid="6289" article="a" name="burning wall"/>
 	<item fromid="6290" toid="6298" name="some cracks"/>
-	<item id="6299" article="a" name="death ring">
+	<item id="6299" article="a" name="khel thuzad ring">
 		<attribute key="slotType" value="ring"/>
+		<attribute key="absorbPercentAll" value="1" />
+		<attribute key="armor" value="5"/>
 		<attribute key="transformequipto" value="6300"/>
 		<attribute key="weight" value="80"/>
 	</item>
-	<item id="6300" article="a" name="death ring">
-		<attribute key="description" value="Wearing it makes you feel a little weaker than usual"/>
+	<item id="6300" article="a" name="khel thuzad ring">
 		<attribute key="slotType" value="ring"/>
-		<attribute key="absorbpercentdeath" value="5"/>
 		<attribute key="absorbPercentAll" value="1" />
 		<attribute key="healthGain" value="10" />
 		<attribute key="healthTicks" value="5000" />
@@ -18492,7 +18493,7 @@
 	</item>
 	<item id="8860" article="a" name="brocade backpack">
 		<attribute key="slotType" value="backpack"/>
-		<attribute key="containersize" value="20"/>
+		<attribute key="containersize" value="40"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="increase capacity" value="3"/>
@@ -44396,9 +44397,11 @@
 	<item id="28713" article="a" name="magic sphere"/>
 	<item id="28714" article="a" name="falcon circlet">
 		<attribute key="slotType" value="head"/>
-		<attribute key="absorbpercentfire" value="9"/>
-		<attribute key="magicpoints" value="2"/>
-		<attribute key="armor" value="8"/>
+		<attribute key="absorbpercentall" value="4"/>
+		<attribute key="magicpoints" value="6"/>
+		<attribute key="armor" value="10"/>
+		<attribute key="maxmanapointspercent" value="5" />
+		<attribute key="description" value="+5% of mana." />
 		<attribute key="weight" value="1300"/>
 		<attribute key="upgradeclassification" value="4"/>
 		<attribute key="imbuementslot" value="2">
@@ -44408,11 +44411,13 @@
 	</item>
 	<item id="28715" article="a" name="falcon coif">
 		<attribute key="slotType" value="head"/>
-		<attribute key="absorbpercentphysical" value="3"/>
-		<attribute key="absorbpercentfire" value="10"/>
-		<attribute key="skillshield" value="2"/>
-		<attribute key="skilldist" value="2"/>
-		<attribute key="armor" value="10"/>
+		<attribute key="absorbpercentall" value="5"/>
+		<attribute key="skillshield" value="5"/>
+		<attribute key="skilldist" value="5"/>
+		<attribute key="skillclub" value="5"/>
+		<attribute key="skillaxe" value="5"/>
+		<attribute key="skillsword" value="5"/>
+		<attribute key="armor" value="11"/>
 		<attribute key="weight" value="2800"/>
 		<attribute key="upgradeclassification" value="4"/>
 		<attribute key="imbuementslot" value="2">
@@ -44491,13 +44496,10 @@
 	</item>
 	<item id="28720" name="falcon greaves">
 		<attribute key="slotType" value="legs"/>
-		<attribute key="absorbpercentphysical" value="7"/>
-		<attribute key="absorbpercentice" value="7"/>
-		<attribute key="skilldist" value="3"/>
-		<attribute key="skillclub" value="3"/>
-		<attribute key="skillaxe" value="3"/>
-		<attribute key="skillsword" value="3"/>
-		<attribute key="armor" value="10"/>
+		<attribute key="absorbpercentall" value="9"/>
+		<attribute key="maxhitpointspercent" value="10" />
+		<attribute key="description" value="+10% of life." />
+		<attribute key="armor" value="15"/>
 		<attribute key="weight" value="3600"/>
 	</item>
 	<item id="28721" article="a" name="falcon shield">
@@ -44518,17 +44520,10 @@
 	</item>
 	<item id="28722" article="a" name="falcon escutcheon">
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="absorbpercentphysical" value="7"/>
-		<attribute key="absorbpercentfire" value="15"/>
-		<attribute key="defense" value="40"/>
+		<attribute key="absorbpercentall" value="8"/>
+		<attribute key="defense" value="48"/>
 		<attribute key="weight" value="6000"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="elemental protection death" value="3"/>
-			<attribute key="elemental protection earth" value="3"/>
-			<attribute key="elemental protection fire" value="3"/>
-			<attribute key="elemental protection ice" value="3"/>
-			<attribute key="elemental protection energy" value="3"/>
-			<attribute key="elemental protection holy" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 		</attribute>
 	</item>
@@ -47286,9 +47281,8 @@
 	<item id="30394" name="cobra boots">
 		<attribute key="slotType" value="feet"/>
 		<attribute key="showAttributes" value="1"/>
-		<attribute key="absorbpercentphysical" value="6"/>
-		<attribute key="speed" value="20"/>
-		<attribute key="armor" value="3"/>
+		<attribute key="absorbpercentall" value="6"/>
+		<attribute key="armor" value="6"/>
 		<attribute key="weight" value="900"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="increase speed" value="3"/>
@@ -47327,10 +47321,14 @@
 	<item id="30397" article="a" name="cobra hood">
 		<attribute key="slotType" value="head"/>
 		<attribute key="showAttributes" value="1"/>
-		<attribute key="absorbpercentphysical" value="5"/>
-		<attribute key="skillclub" value="1"/>
-		<attribute key="skillaxe" value="1"/>
-		<attribute key="skillsword" value="1"/>
+		<attribute key="absorbpercentall" value="4"/>
+		<attribute key="skillshield" value="3"/>
+		<attribute key="skilldist" value="3"/>
+		<attribute key="skillclub" value="3"/>
+		<attribute key="skillaxe" value="3"/>
+		<attribute key="skillsword" value="3"/>
+		<attribute key="maxhitpointspercent" value="5" />
+		<attribute key="description" value="+5% of life." />
 		<attribute key="armor" value="9"/>
 		<attribute key="weight" value="2700"/>
 		<attribute key="upgradeclassification" value="4"/>
@@ -49055,8 +49053,8 @@
 	<item id="31631" article="the" name="cobra amulet">
 		<attribute key="description" value="The bearer of this amulet will command the gaze, the resilience and deadliness of the cobra. Yet what firmly has its place in the heart of its wearer, the cobra will conceal"/>
 		<attribute key="slotType" value="necklace"/>
-		<attribute key="absorbpercentdeath" value="9"/>
-		<attribute key="armor" value="4"/>
+		<attribute key="absorbpercentall" value="4"/>
+		<attribute key="armor" value="6"/>
 		<attribute key="weight" value="530"/>
 	</item>
 	<item id="31632" article="the" name="missing piece of the cube">
@@ -50327,9 +50325,14 @@
 		</attribute>
 	</item>
 	<item id="32621" article="a" name="ring of souls">
-		<attribute key="description" value="This ring is out of magic energy."/>
 		<attribute key="slotType" value="ring"/>
 		<attribute key="loottype" value="ring"/>
+		<attribute key="absorbPercentAll" value="3" />
+		<attribute key="healthGain" value="15" />
+		<attribute key="healthTicks" value="5000" />
+		<attribute key="manaGain" value="10" />
+		<attribute key="manaTicks" value="5000" />
+		<attribute key="armor" value="5"/>
 		<attribute key="weight" value="80"/>
 	</item>
 	<item id="32622" article="a" name="giant amethyst">
@@ -52407,28 +52410,35 @@
 	</item>
 	<item id="34092" article="a" name="soulshanks">
 		<attribute key="slotType" value="legs"/>
-		<attribute key="absorbpercentdeath" value="10"/>
-		<attribute key="magicpoints" value="3"/>
-		<attribute key="armor" value="10"/>
+		<attribute key="absorbpercentall" value="10"/>
+		<attribute key="skillclub" value="6"/>
+		<attribute key="skillaxe" value="6"/>
+		<attribute key="skillsword" value="6"/>
+		<attribute key="skilldist" value="6"/>
+		<attribute key="armor" value="16"/>
 		<attribute key="weight" value="3800"/>
 	</item>
 	<item id="34093" article="a" name="soulstrider">
 		<attribute key="slotType" value="legs"/>
-		<attribute key="absorbpercentfire" value="10"/>
-		<attribute key="magicpoints" value="3"/>
-		<attribute key="armor" value="10"/>
+		<attribute key="absorbpercentall" value="10"/>
+		<attribute key="magicpoints" value="6"/>
+		<attribute key="maxmanapointspercent" value="15" />
+		<attribute key="description" value="+15% of mana." />
+		<attribute key="armor" value="16"/>
 		<attribute key="weight" value="3800"/>
 	</item>
 	<item id="34094" article="a" name="soulshell">
 		<attribute key="slotType" value="body"/>
 		<attribute key="loottype" value="armor"/>
 		<attribute key="absorbpercentall" value="10"/>
-		<attribute key="skillclub" value="1"/>
-		<attribute key="skillaxe" value="1"/>
-		<attribute key="skillsword" value="1"/>
+		<attribute key="skillclub" value="12"/>
+		<attribute key="skillaxe" value="12"/>
+		<attribute key="skillsword" value="12"/>
 		<attribute key="armor" value="18"/>
 		<attribute key="weight" value="12300"/>
 		<attribute key="upgradeclassification" value="4"/>
+		<attribute key="maxhitpointspercent" value="15" />
+		<attribute key="description" value="+15% of life." />
 		<attribute key="imbuementslot" value="2">
 			<attribute key="life leech" value="3"/>
 			<attribute key="elemental protection death" value="3"/>
@@ -52478,12 +52488,12 @@
 	<item id="34097" name="pair of soulwalkers">
 		<attribute key="slotType" value="feet"/>
 		<attribute key="loottype" value="boots"/>
-		<attribute key="absorbpercentphysical" value="7"/>
-		<attribute key="absorbpercentfire" value="5"/>
-		<attribute key="skillclub" value="1"/>
-		<attribute key="skillaxe" value="1"/>
-		<attribute key="skillsword" value="1"/>
-		<attribute key="speed" value="30"/>
+		<attribute key="absorbPercentAll" value="7" />
+		<attribute key="magicpoints" value="7"/>
+		<attribute key="healthGain" value="10" />
+		<attribute key="healthTicks" value="5000" />
+		<attribute key="manaGain" value="30" />
+		<attribute key="manaTicks" value="5000" />
 		<attribute key="armor" value="4"/>
 		<attribute key="weight" value="1300"/>
 		<attribute key="imbuementslot" value="1">
@@ -52493,10 +52503,16 @@
 	<item id="34098" name="pair of soulstalkers">
 		<attribute key="slotType" value="feet"/>
 		<attribute key="loottype" value="boots"/>
-		<attribute key="absorbpercentphysical" value="5"/>
-		<attribute key="skilldist" value="1"/>
-		<attribute key="speed" value="40"/>
-		<attribute key="armor" value="3"/>
+		<attribute key="absorbpercentall" value="7"/>
+		<attribute key="skilldist" value="7"/>
+		<attribute key="skillclub" value="7"/>
+		<attribute key="skillaxe" value="7"/>
+		<attribute key="skillsword" value="7"/>
+		<attribute key="healthGain" value="30" />
+		<attribute key="healthTicks" value="5000" />
+		<attribute key="manaGain" value="10" />
+		<attribute key="manaTicks" value="5000" />
+		<attribute key="armor" value="7"/>
 		<attribute key="weight" value="1300"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="increase speed" value="3"/>
@@ -52505,17 +52521,10 @@
 	<item id="34099" article="a" name="soulbastion">
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="loottype" value="shield"/>
-		<attribute key="absorbpercentphysical" value="10"/>
-		<attribute key="absorbpercentdeath" value="10"/>
-		<attribute key="defense" value="42"/>
+		<attribute key="absorbpercentall" value="9"/>
+		<attribute key="defense" value="49"/>
 		<attribute key="weight" value="5800"/>
 		<attribute key="imbuementslot" value="1">
-			<attribute key="elemental protection death" value="3"/>
-			<attribute key="elemental protection earth" value="3"/>
-			<attribute key="elemental protection fire" value="3"/>
-			<attribute key="elemental protection ice" value="3"/>
-			<attribute key="elemental protection energy" value="3"/>
-			<attribute key="elemental protection holy" value="3"/>
 			<attribute key="skillboost shielding" value="3"/>
 		</attribute>
 	</item>
