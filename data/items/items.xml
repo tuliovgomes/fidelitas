@@ -21561,7 +21561,7 @@
 	<item id="10384" article="a" name="zenit cuirass">
 		<attribute key="slotType" value="body"/>
 		<attribute key="absorbPercentPhysical" value="14" />
-		<attribute key="maxhitpointspercent" value="4" />
+		<attribute key="maxhitpointspercent" value="104" />
 		<attribute key="description" value="+4% of life." />
 		<attribute key="armor" value="18"/>
 		<attribute key="weight" value="9550"/>
@@ -21570,7 +21570,7 @@
 	<item id="10385" article="a" name="zenit helmet">
 		<attribute key="slotType" value="head"/>
 		<attribute key="absorbPercentPhysical" value="7" />
-		<attribute key="maxhitpointspercent" value="3" />
+		<attribute key="maxhitpointspercent" value="103" />
 		<attribute key="description" value="+3% of life." />
 		<attribute key="armor" value="9"/>
 		<attribute key="weight" value="6600"/>
@@ -21588,7 +21588,7 @@
 		<attribute key="slotType" value="feet"/>
 		<attribute key="speed" value="10"/>
 		<attribute key="absorbPercentPhysical" value="4" />
-		<attribute key="maxhitpointspercent" value="1" />
+		<attribute key="maxhitpointspercent" value="101" />
 		<attribute key="description" value="+1% of life." />
 		<attribute key="armor" value="2"/>
 		<attribute key="weight" value="700"/>
@@ -21599,7 +21599,7 @@
 	<item id="10387" article="a" name="zenit legs">
 		<attribute key="slotType" value="legs"/>
 		<attribute key="absorbPercentPhysical" value="7" />
-		<attribute key="maxhitpointspercent" value="2" />
+		<attribute key="maxhitpointspercent" value="102" />
 		<attribute key="description" value="+2% of life." />
 		<attribute key="armor" value="11"/>
 		<attribute key="weight" value="6600"/>
@@ -44400,7 +44400,7 @@
 		<attribute key="absorbpercentall" value="4"/>
 		<attribute key="magicpoints" value="6"/>
 		<attribute key="armor" value="10"/>
-		<attribute key="maxmanapointspercent" value="5" />
+		<attribute key="maxmanapointspercent" value="105" />
 		<attribute key="description" value="+5% of mana." />
 		<attribute key="weight" value="1300"/>
 		<attribute key="upgradeclassification" value="4"/>
@@ -44497,7 +44497,7 @@
 	<item id="28720" name="falcon greaves">
 		<attribute key="slotType" value="legs"/>
 		<attribute key="absorbpercentall" value="9"/>
-		<attribute key="maxhitpointspercent" value="10" />
+		<attribute key="maxhitpointspercent" value="110" />
 		<attribute key="description" value="+10% of life." />
 		<attribute key="armor" value="15"/>
 		<attribute key="weight" value="3600"/>
@@ -47327,7 +47327,7 @@
 		<attribute key="skillclub" value="3"/>
 		<attribute key="skillaxe" value="3"/>
 		<attribute key="skillsword" value="3"/>
-		<attribute key="maxhitpointspercent" value="5" />
+		<attribute key="maxhitpointspercent" value="105" />
 		<attribute key="description" value="+5% of life." />
 		<attribute key="armor" value="9"/>
 		<attribute key="weight" value="2700"/>
@@ -52422,7 +52422,7 @@
 		<attribute key="slotType" value="legs"/>
 		<attribute key="absorbpercentall" value="10"/>
 		<attribute key="magicpoints" value="6"/>
-		<attribute key="maxmanapointspercent" value="15" />
+		<attribute key="maxmanapointspercent" value="115" />
 		<attribute key="description" value="+15% of mana." />
 		<attribute key="armor" value="16"/>
 		<attribute key="weight" value="3800"/>
@@ -52437,7 +52437,7 @@
 		<attribute key="armor" value="18"/>
 		<attribute key="weight" value="12300"/>
 		<attribute key="upgradeclassification" value="4"/>
-		<attribute key="maxhitpointspercent" value="15" />
+		<attribute key="maxhitpointspercent" value="115" />
 		<attribute key="description" value="+15% of life." />
 		<attribute key="imbuementslot" value="2">
 			<attribute key="life leech" value="3"/>
