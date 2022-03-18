@@ -1745,7 +1745,6 @@
 	<item id="811" article="a" name="terra mantle">
 		<attribute key="slotType" value="body"/>
 		<attribute key="absorbpercentpoison" value="8"/>
-		<attribute key="absorbpercentfire" value="-8"/>
 		<attribute key="armor" value="11"/>
 		<attribute key="weight" value="2250"/>
 		<attribute key="upgradeclassification" value="2"/>
@@ -1753,7 +1752,6 @@
 	<item id="812" name="terra legs">
 		<attribute key="slotType" value="legs"/>
 		<attribute key="absorbpercentpoison" value="6"/>
-		<attribute key="absorbpercentfire" value="-6"/>
 		<attribute key="armor" value="8"/>
 		<attribute key="weight" value="1900"/>
 	</item>
@@ -7321,7 +7319,7 @@
 		<attribute key="defense" value="33"/>
 		<attribute key="weight" value="5400"/>
 	</item>
-	<item id="3418" article="a" name="bonelord shield">
+	<item id="3418" article="a" name="beholder shield">
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="defense" value="28"/>
 		<attribute key="weight" value="4700"/>
@@ -7978,7 +7976,7 @@
 	<item id="3566" article="a" name="red robe">
 		<attribute key="description" value="The robe is artfully embroidered"/>
 		<attribute key="slotType" value="body"/>
-		<attribute key="armor" value="1"/>
+		<attribute key="armor" value="12"/>
 		<attribute key="weight" value="2600"/>
 		<attribute key="upgradeclassification" value="1"/>
 	</item>
@@ -15825,7 +15823,7 @@
 			<attribute key="skillboost club" value="3"/>
 		</attribute>
 	</item>
-	<item id="7415" article="a" name="cranial basher">
+	<item id="7415" article="The" name="Groun Hammer">
 		<attribute key="description" value="This club is only granted to a scrapper of the Svargrond arena"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="attack" value="44"/>
@@ -17201,8 +17199,7 @@
 	<item id="8050" article="a" name="crystalline armor">
 		<attribute key="slotType" value="body"/>
 		<attribute key="absorbpercentice" value="3"/>
-		<attribute key="absorbpercentenergy" value="-3"/>
-		<attribute key="armor" value="13"/>
+		<attribute key="armor" value="16"/>
 		<attribute key="weight" value="8450"/>
 		<attribute key="upgradeclassification" value="2"/>
 	</item>
@@ -17224,7 +17221,6 @@
 	</item>
 	<item id="8053" article="a" name="fireborn giant armor">
 		<attribute key="slotType" value="body"/>
-		<attribute key="absorbpercentice" value="-5"/>
 		<attribute key="absorbpercentfire" value="5"/>
 		<attribute key="skillsword" value="2"/>
 		<attribute key="armor" value="15"/>
@@ -17234,7 +17230,6 @@
 	<item id="8054" article="an" name="earthborn titan armor">
 		<attribute key="slotType" value="body"/>
 		<attribute key="absorbpercentpoison" value="5"/>
-		<attribute key="absorbpercentfire" value="-5"/>
 		<attribute key="skillaxe" value="2"/>
 		<attribute key="armor" value="15"/>
 		<attribute key="weight" value="12000"/>
@@ -17242,7 +17237,6 @@
 	</item>
 	<item id="8055" article="a" name="windborn colossus armor">
 		<attribute key="slotType" value="body"/>
-		<attribute key="absorbpercentpoison" value="-5"/>
 		<attribute key="absorbpercentenergy" value="5"/>
 		<attribute key="skillclub" value="2"/>
 		<attribute key="armor" value="15"/>
@@ -17252,7 +17246,6 @@
 	<item id="8056" article="an" name="oceanborn leviathan armor">
 		<attribute key="slotType" value="body"/>
 		<attribute key="absorbpercentice" value="5"/>
-		<attribute key="absorbpercentenergy" value="-5"/>
 		<attribute key="skillshield" value="1"/>
 		<attribute key="armor" value="15"/>
 		<attribute key="weight" value="10000"/>
@@ -17261,7 +17254,6 @@
 	<item id="8057" article="a" name="divine plate">
 		<attribute key="slotType" value="body"/>
 		<attribute key="absorbpercentdeath" value="10"/>
-		<attribute key="absorbpercentholy" value="-10"/>
 		<attribute key="armor" value="13"/>
 		<attribute key="weight" value="7500"/>
 		<attribute key="upgradeclassification" value="2"/>
@@ -20426,7 +20418,7 @@
 	</item>
 	<item id="9601" article="a" name="demon backpack">
 		<attribute key="slotType" value="backpack"/>
-		<attribute key="containersize" value="20"/>
+		<attribute key="containersize" value="25"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="increase capacity" value="3"/>
@@ -20447,7 +20439,7 @@
 	</item>
 	<item id="9604" article="a" name="moon backpack">
 		<attribute key="slotType" value="backpack"/>
-		<attribute key="containersize" value="20"/>
+		<attribute key="containersize" value="30"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="increase capacity" value="3"/>
@@ -20455,7 +20447,7 @@
 	</item>
 	<item id="9605" article="a" name="crown backpack">
 		<attribute key="slotType" value="backpack"/>
-		<attribute key="containersize" value="20"/>
+		<attribute key="containersize" value="28"/>
 		<attribute key="weight" value="1700"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="increase capacity" value="3"/>
