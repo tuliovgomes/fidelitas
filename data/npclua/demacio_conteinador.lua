@@ -32,22 +32,20 @@ npcConfig.flags = {
 
 -- Npc shop
 npcConfig.shop = {
-	{ itemName = "brown backpack", clientId = 1988, sell = 10},
-	{ itemName = "purple backpack", clientId = 2001, sell = 10},
-	{ itemName = "green Backpack", clientId = 1998, sell = 10},
-	{ itemName = "blue backpack", clientId = 2002, sell = 10},
-	{ itemName = "golden backpack", clientId = 2004, sell = 10},
-	{ itemName = "red backpack", clientId = 2000, sell = 10},
-	{ itemName = "grey backpack", clientId = 2003, sell = 10},
+	{ itemName = "purple backpack", clientId = 2868, sell = 10},
+	{ itemName = "green Backpack", clientId = 2865, sell = 10},
+	{ itemName = "blue backpack", clientId = 2869, sell = 10},
+	{ itemName = "golden backpack", clientId = 2871, sell = 10},
+	{ itemName = "red backpack", clientId = 2867, sell = 10},
+	{ itemName = "grey backpack", clientId = 2870, sell = 10},
 	{ itemName = "beach backpack", clientId = 5949, sell = 20},
-	{ itemName = "camouflage backpack", clientId = 3940, sell = 20},
+	{ itemName = "camouflage backpack", clientId = 2872, sell = 20},
 	{ itemName = "pirate backpack", clientId = 5926, sell = 20},
 	{ itemName = "fur backpack", clientId = 7342, sell = 20},
-	{ itemName = "backpack of holding", clientId = 2365, sell = 30},
-	{ itemName = "orange backpack", clientId = 10519, sell = 50},
-	{ itemName = "demon backpack", clientId = 10518, sell = 1000},
-	{ itemName = "moon backpack", clientId = 10521, sell = 1000},
-	{ itemName = "crown backpack", clientId = 10522, sell = 1000},
+	{ itemName = "backpack of holding", clientId = 3253, sell = 30},
+	{ itemName = "demon backpack", clientId = 9601, sell = 2500},
+	{ itemName = "moon backpack", clientId = 9604, sell = 3000},
+	{ itemName = "crown backpack", clientId = 9605, sell = 2800},
 }
 
 -- Create keywordHandler and npcHandler

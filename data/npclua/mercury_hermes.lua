@@ -32,22 +32,22 @@ npcConfig.flags = {
 
 -- Npc shop
 npcConfig.shop = {
-	{ itemName = "sandals", clientId = 2642, sell = 7},
-	{ itemName = "aghanim boots", clientId = 7893, sell = 25000},
-	{ itemName = "boots of haste", clientId = 2195, sell = 15000},
-	{ itemName = "crocodile boots", clientId = 3982, sell = 5000},
-	{ itemName = "dragon scale boots", clientId = 11114, sell = 50000},
-	{ itemName = "firewalker boots", clientId = 9932, sell = 300000},
+	{ itemName = "aghanim boots", clientId = 820, sell = 25000},
+	{ itemName = "boots of haste", clientId = 3079, sell = 15000},
+	{ itemName = "crocodile boots", clientId = 3556, sell = 5000},
+	{ itemName = "dragon scale boots", clientId = 10201, sell = 50000},
+	{ itemName = "firewalker boots", clientId = 9018, sell = 300000},
 	{ itemName = "fur boots", clientId = 7457, sell = 4000},
-	{ itemName = "glacier boots", clientId = 7892, sell = 14000},
-	{ itemName = "golden boots", clientId = 2646, sell = 500000},
-	{ itemName = "leather boots", clientId = 2643, sell = 10},
-	{ itemName = "magma boots", clientId = 7894, sell = 18000},
-	{ itemName = "pirate boots", clientId = 5462, sell = 3000},
-	{ itemName = "soft boots", clientId = 6132, sell = 50000},
-	{ itemName = "steel boots", clientId = 2645, sell = 20000},
-	{ itemName = "terra boots", clientId = 7886, sell = 6000},
-	{ itemName = "zenit shoes", clientId = 11297, sell = 50000},
+	{ itemName = "glacier shoes", clientId = 819, sell = 14000},
+	{ itemName = "golden boots", clientId = 3555, sell = 500000},
+	{ itemName = "magma boots", clientId = 818, sell = 18000},
+	{ itemName = "pirate boots", clientId = 5461, sell = 3000},
+	{ itemName = "soft boots", clientId = 6529, sell = 50000},
+	{ itemName = "steel boots", clientId = 3554, sell = 20000},
+	{ itemName = "terra boots", clientId = 813, sell = 6000},
+	{ itemName = "zenit shoes", clientId = 10386, sell = 50000},
+	{ itemName = "aghanim boots", clientId = 820, buy = 70000},
+	{ itemName = "boots of haste", clientId = 3079, buy = 45000},
 }
 
 -- Create keywordHandler and npcHandler

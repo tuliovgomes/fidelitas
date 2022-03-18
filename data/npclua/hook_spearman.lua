@@ -32,26 +32,21 @@ npcConfig.flags = {
 
 -- Npc shop
 npcConfig.shop = {
-	{ itemName = "bow", clientId = 2456, buy = 400 },
-	{ itemName = "crossbow", clientId = 2455, buy = 500 },
+	{ itemName = "bow", clientId = 3350, buy = 400 },
+	{ itemName = "crossbow", clientId = 3349, buy = 500 },
 	{ itemName = "royal spear", clientId = 7378, buy = 15 },
-	{ itemName = "spear", clientId = 2389, buy = 10 },
-	{ itemName = "arrow", clientId = 2544, buy = 3 },
+	{ itemName = "spear", clientId = 3277, buy = 10 },
+	{ itemName = "arrow", clientId = 3447, buy = 3 },
 	{ itemName = "sniper arrow", clientId = 7364, buy = 5 },
-	{ itemName = "bolt", clientId = 2543, buy = 4 },
-	{ itemName = "earth arrow", clientId = 7850, buy = 5 },
-	{ itemName = "flaming arrow", clientId = 7840, buy = 5 },
-	{ itemName = "flash arrow", clientId = 7838, buy = 5 },
-	{ itemName = "onyx arrow", clientId = 7365, buy = 7 },
-	{ itemName = "power bolt", clientId = 2547, buy = 7 },
-	{ itemName = "throwing star", clientId = 2399, buy = 42 },
-	{ itemName = "shiver arrow", clientId = 7839, buy = 5 },
-	{ itemName = "piercing bolt", clientId = 7363, buy = 5 },
+	{ itemName = "bolt", clientId = 3446, buy = 4 },
+	{ itemName = "earth arrow", clientId = 774, buy = 5 },
+	{ itemName = "flaming arrow", clientId = 763, buy = 5 },
+	{ itemName = "flash arrow", clientId = 761, buy = 5 },
+	{ itemName = "power bolt", clientId = 3450, buy = 7 },
 	{ itemName = "assassin star", clientId = 7368, buy = 100 },
-	{ itemName = "throwing knife", clientId = 2410, buy = 25 },
-	{ itemName = "bow", clientId = 2456, sell = 130 },
-	{ itemName = "crossbow", clientId = 2455, sell = 160 },
-	{ itemName = "spear", clientId = 2389, sell = 3 },
+	{ itemName = "bow", clientId = 3350, sell = 130 },
+	{ itemName = "crossbow", clientId = 3349, sell = 160 },
+	{ itemName = "spear", clientId = 3277, sell = 3 },
 }
 
 -- Create keywordHandler and npcHandler
