@@ -99,7 +99,7 @@ monster.loot = {
 	{id = 3059, chance = 1030},
 	{name = "strong mana potion", chance = 830},
 	{name = "giant eye", chance = 460},
-	{name = "bonelord shield", chance = 90},
+	{name = "beholder shield", chance = 90},
 	{name = "bonelord helmet", chance = 90}
 }
 

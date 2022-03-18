@@ -98,7 +98,7 @@ monster.loot = {
 	{name = "haunted blade", chance = 1440},
 	{id = 3059, chance = 930},
 	{name = "spiked squelcher", chance = 180},
-	{name = "bonelord shield", chance = 100},
+	{name = "beholder shield", chance = 100},
 	{name = "bonelord helmet", chance = 100}
 }
 

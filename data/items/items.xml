@@ -21844,7 +21844,8 @@
 		<attribute key="weight" value="2350"/>
 		<attribute key="upgradeclassification" value="2"/>
 	</item>
-	<item id="10439" article="a" name="Divine robe">
+	<item id="
+	" article="a" name="Divine robe">
 		<attribute key="slotType" value="body"/>
 		<attribute key="absorbpercentfire" value="10"/>
 		<attribute key="absorbpercentdeath" value="10" />

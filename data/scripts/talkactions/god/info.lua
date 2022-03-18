@@ -37,9 +37,22 @@ function info.onSay(player, words, param)
 		end
 	end
 
-	local slotName = {"Helmet", "Amulet", "Backpack", "Armor", "Right Hand", "Left Hand", "Legs", "Boots", "Ring", "Arrow"}
+	local slotName = {
+		"Helmet:",
+		"Amulet:",
+		"Backpack:",
+		"Armor:",
+		"Hand R:",
+		"Hand L:",
+		"Legs:",
+		"Boots:",
+		"Ring:",
+		"Arrow:"
+	}
 
 	local str = str .. "List of items that are in use: \n"
+	local armor = 0
+	local fire = 0
 	for i=1, 10 do
 		str = str.."\n"
 		local item = target:getSlotItem(i)
@@ -50,13 +63,19 @@ function info.onSay(player, words, param)
 			else
 				count = ""
 			end
-			str = str..slotName[i]..": "..ItemType(item.itemid):getName().." "..count
+			str = str..slotName[i].." "..ItemType(item.itemid):getName().." "..count
+			if ItemType(item.itemid):getArmor() >= 0 then
+				armor = armor + ItemType(item.itemid):getArmor()
+			end
 		else
-			str = str..slotName[i]..": Empty"
+			str = str..slotName[i].." Empty"
 		end
 	end
 
-	str = str .. "\n\n Position: " .. string.format("(%0.5d / %0.5d / %0.3d)", target:getPosition().x, target:getPosition().y, target:getPosition().z) .. "\n"
+	str = str ..  "\n\nAttributes of items in use:\n"
+	str = str .. "Protection Armor: " .. armor
+
+	str = str .. "\n\nPosition: " .. string.format("(%0.5d / %0.5d / %0.3d)", target:getPosition().x, target:getPosition().y, target:getPosition().z) .. "\n"
 		.."IP: " .. Game.convertIpToString(targetIp) .. "\n"
 
 	if #players > 0 then
