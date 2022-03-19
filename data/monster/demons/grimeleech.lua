@@ -105,7 +105,6 @@ monster.loot = {
 	{name = "rift shield", chance = 620},
 	{name = "rift lance", chance = 580},
 	{name = "rift bow", chance = 370},
-	{name = "abyss hammer", chance = 210},
 	{name = "vile axe", chance = 180},
 	{name = "magic plate armor", chance = 60}
 }

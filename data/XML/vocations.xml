@@ -213,4 +213,35 @@
 		<skill id="5" multiplier="1.1" />
 		<skill id="6" multiplier="1.1" />
 	</vocation>
+
+	<vocation id="21" clientid="13" baseid="1" name="Divine Mage" description="a Divine Mage" magicshield="1" gaincap="20" gainhp="16" gainmana="45" gainhpticks="12000" gainhpamount="8" gainmanaticks="2000" gainmanaamount="10" manamultiplier="1.1" attackspeed="2000" basespeed="220" soulmax="200" gainsoulticks="15000" fromvoc="16,17">
+		<formula meleeDamage="1.0" distDamage="1.0" defense="1.0" armor="1.0" />
+		<skill id="0" multiplier="1.5" />
+		<skill id="1" multiplier="2.0" />
+		<skill id="2" multiplier="2.0" />
+		<skill id="3" multiplier="2.0" />
+		<skill id="4" multiplier="2.0" />
+		<skill id="5" multiplier="1.5" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="22" clientid="23" baseid="3" name="Divine Shooter" description="a Divine Shooter" magicshield="0" gaincap="30" gainhp="20" gainmana="25" gainhpticks="6000" gainhpamount="9" gainmanaticks="3000" gainmanaamount="9" manamultiplier="1.4" attackspeed="2000" basespeed="220" soulmax="200" gainsoulticks="15000" fromvoc="18">
+		<formula meleeDamage="1.0" distDamage="1.0" defense="1.0" armor="1.0" />
+		<skill id="0" multiplier="1.2" />
+		<skill id="1" multiplier="1.2" />
+		<skill id="2" multiplier="1.2" />
+		<skill id="3" multiplier="1.2" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="23" clientid="22" baseid="4" name="Divine Warrior" description="a Divine Warrior" magicshield="0" gaincap="35" gainhp="45" gainmana="16" gainhpticks="4000" gainhpamount="10" gainmanaticks="6000" gainmanaamount="6" manamultiplier="3.0" attackspeed="2000" basespeed="220" soulmax="200" gainsoulticks="15000" fromvoc="19,20">
+		<formula meleeDamage="1.0" distDamage="1.0" defense="1.0" armor="1.0" />
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.4" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
 </vocations>

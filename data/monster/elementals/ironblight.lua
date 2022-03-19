@@ -90,7 +90,6 @@ monster.loot = {
 	{name = "great mana potion", chance = 17640},
 	{name = "terra legs", chance = 1110},
 	{name = "ultimate health potion", chance = 18330},
-	{name = "composite hornbow", chance = 210},
 	{name = "springsprout rod", chance = 1720},
 	{name = "crystal of balance", chance = 4480},
 	{name = "crystal of power", chance = 2480},

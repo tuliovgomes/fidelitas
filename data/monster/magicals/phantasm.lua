@@ -98,7 +98,6 @@ monster.loot = {
 	{name = "shadow herb", chance = 26930, maxCount = 2},
 	{id = 6299, chance = 330},
 	{name = "demonic essence", chance = 16320},
-	{name = "abyss hammer", chance = 110},
 	{name = "shadow sceptre", chance = 550},
 	{name = "great mana potion", chance = 32750, maxCount = 2},
 	{name = "ultimate health potion", chance = 14680},

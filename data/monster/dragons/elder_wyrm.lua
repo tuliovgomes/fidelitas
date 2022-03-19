@@ -92,7 +92,6 @@ monster.loot = {
 	{name = "Aghanim boots", chance = 310},
 	{name = "Aghanim legs", chance = 930},
 	{name = "Aghanim robe", chance = 310},
-	{name = "composite hornbow", chance = 310},
 	{name = "focus cape", chance = 100},
 	{name = "wand of starstorm", chance = 410},
 	{name = "wand of draconia", chance = 2000},

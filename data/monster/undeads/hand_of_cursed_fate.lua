@@ -100,7 +100,6 @@ monster.loot = {
 	{name = "demonic essence", chance = 12000},
 	{name = "flask of demonic blood", chance = 30000, maxCount = 4},
 	{name = "assassin star", chance = 7692, maxCount = 5},
-	{name = "abyss hammer", chance = 495},
 	{name = "great mana potion", chance = 19990, maxCount = 2},
 	{name = "ultimate health potion", chance = 18000},
 	{name = "gold ingot", chance = 700}

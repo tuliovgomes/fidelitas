@@ -6265,12 +6265,13 @@
 			<attribute key="skillboost club" value="3"/>
 		</attribute>
 	</item>
-	<item id="3313" article="an" name="obsidian lance">
-		<attribute key="weaponType" value="axe"/>
-		<attribute key="slotType" value="two-handed"/>
-		<attribute key="attack" value="34"/>
-		<attribute key="defense" value="10"/>
-		<attribute key="weight" value="8000"/>
+	<item id="3313" article="an" name="Aiglos">
+		<attribute key="weight" value="2200" />
+		<attribute key="attack" value="68" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="shootType" value="huntingspear" />
+		<attribute key="maxhitchance" value="90"/>
+		<attribute key="range" value="8" />
 		<attribute key="upgradeclassification" value="1"/>
 	</item>
 	<item id="3314" article="a" name="naginata">
@@ -14318,13 +14319,12 @@
 		<attribute key="description" value="Collect enough of these to trade them for valuable prizes"/>
 		<attribute key="weight" value="5"/>
 	</item>
-	<item id="6527" article="the" name="avenger">
-		<attribute key="description" value="This holy blade was forged of shattered dreams"/>
-		<attribute key="weaponType" value="sword"/>
-		<attribute key="slotType" value="two-handed"/>
-		<attribute key="attack" value="50"/>
-		<attribute key="defense" value="38"/>
-		<attribute key="weight" value="6400"/>
+	<item id="6527" name="Narsil">
+		<attribute key="weight" value="6400" />
+		<attribute key="defense" value="45" />
+		<attribute key="attack" value="71" />
+		<attribute key="weaponType" value="sword" />
+		<attribute key="slotType" value="two-handed" />
 		<attribute key="upgradeclassification" value="2"/>
 		<attribute key="imbuementslot" value="2">
 			<attribute key="elemental damage" value="3"/>
@@ -15762,18 +15762,18 @@
 		<attribute key="weight" value="4200"/>
 		<attribute key="upgradeclassification" value="2"/>
 	</item>
-	<item id="7410" article="a" name="queen's sceptre">
-		<attribute key="weaponType" value="club"/>
-		<attribute key="attack" value="43"/>
-		<attribute key="defense" value="19"/>
-		<attribute key="weight" value="2300"/>
+	<item id="7410" article="a" name="Mekansm">
+		<attribute key="weaponType" value="wand"/>
+		<attribute key="shootType" value="holy"/>
+		<attribute key="shootType" value="smallholy"/>
+		<attribute key="range" value="3"/>
+		<attribute key="weight" value="1500"/>
 		<attribute key="upgradeclassification" value="3"/>
 		<attribute key="imbuementslot" value="2">
 			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
-			<attribute key="skillboost club" value="3"/>
 		</attribute>
 	</item>
 	<item id="7411" article="an" name="ornamented axe">
@@ -15807,13 +15807,12 @@
 		<attribute key="weight" value="8100"/>
 		<attribute key="upgradeclassification" value="2"/>
 	</item>
-	<item id="7414" article="an" name="abyss hammer">
-		<attribute key="description" value="Floating stones form the tip of this strange weapon, held in place by unspeakable magic"/>
-		<attribute key="weaponType" value="club"/>
-		<attribute key="slotType" value="two-handed"/>
-		<attribute key="attack" value="47"/>
-		<attribute key="defense" value="21"/>
-		<attribute key="weight" value="5500"/>
+	<item id="7414" article="an" name="Glamdring">
+		<attribute key="weight" value="5500" />
+		<attribute key="defense" value="42" />
+		<attribute key="attack" value="79" />
+		<attribute key="weaponType" value="club" />
+		<attribute key="slotType" value="two-handed" />
 		<attribute key="upgradeclassification" value="2"/>
 		<attribute key="imbuementslot" value="3">
 			<attribute key="elemental damage" value="3"/>
@@ -15944,19 +15943,17 @@
 			<attribute key="skillboost club" value="3"/>
 		</attribute>
 	</item>
-	<item id="7424" article="a" name="lunar staff">
-		<attribute key="weaponType" value="club"/>
-		<attribute key="slotType" value="two-handed"/>
-		<attribute key="attack" value="40"/>
-		<attribute key="defense" value="25"/>
-		<attribute key="weight" value="3800"/>
+	<item id="7424" article="a" name="Aghanim's Scepter">
+		<attribute key="weight" value="3800" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="death" />
+		<attribute key="range" value="10" />
 		<attribute key="upgradeclassification" value="2"/>
 		<attribute key="imbuementslot" value="3">
 			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
-			<attribute key="skillboost club" value="3"/>
 		</attribute>
 	</item>
 	<item id="7425" article="a" name="taurus mace">
@@ -16996,13 +16993,13 @@
 		</attribute>
 	</item>
 	<item id="8024" article="the" name="devileye">
-		<attribute key="weaponType" value="distance"/>
-		<attribute key="slotType" value="two-handed"/>
-		<attribute key="ammotype" value="bolt"/>
-		<attribute key="hitchance" value="-20"/>
-		<attribute key="range" value="6"/>
-		<attribute key="attack" value="20"/>
-		<attribute key="weight" value="5500"/>
+		<attribute key="weight" value="5500" />
+		<attribute key="slotType" value="two-handed" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="bolt" />
+		<attribute key="range" value="6" />
+		<attribute key="hitChance" value="50" />
+		<attribute key="attack" value="40" />
 		<attribute key="upgradeclassification" value="4"/>
 		<attribute key="imbuementslot" value="3">
 			<attribute key="elemental damage" value="3"/>
@@ -17045,14 +17042,14 @@
 			<attribute key="skillboost distance" value="3"/>
 		</attribute>
 	</item>
-	<item id="8027" article="a" name="composite hornbow">
-		<attribute key="weaponType" value="distance"/>
-		<attribute key="slotType" value="two-handed"/>
-		<attribute key="ammotype" value="arrow"/>
-		<attribute key="hitchance" value="2"/>
-		<attribute key="range" value="6"/>
-		<attribute key="attack" value="3"/>
-		<attribute key="weight" value="5200"/>
+	<item id="8027" article="a" name="Eaglehorn">
+		<attribute key="weight" value="5200" />
+		<attribute key="slotType" value="two-handed" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="arrow" />
+		<attribute key="range" value="8" />
+		<attribute key="hitChance" value="100" />
+		<attribute key="attack" value="50" />
 		<attribute key="upgradeclassification" value="2"/>
 		<attribute key="imbuementslot" value="3">
 			<attribute key="elemental damage" value="3"/>
@@ -17524,11 +17521,11 @@
 		<attribute key="weight" value="3500"/>
 	</item>
 	<item id="8096" article="a" name="hellforged axe">
-		<attribute key="weaponType" value="axe"/>
-		<attribute key="attack" value="51"/>
-		<attribute key="extradef" value="2"/>
-		<attribute key="defense" value="28"/>
-		<attribute key="weight" value="8800"/>
+		<attribute key="weight" value="8800" />
+		<attribute key="defense" value="37" />
+		<attribute key="attack" value="69" />
+		<attribute key="weaponType" value="axe" />
+		<attribute key="slotType" value="two-handed" />
 		<attribute key="upgradeclassification" value="3"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="elemental damage" value="3"/>
@@ -21844,8 +21841,7 @@
 		<attribute key="weight" value="2350"/>
 		<attribute key="upgradeclassification" value="2"/>
 	</item>
-	<item id="
-	" article="a" name="Divine robe">
+	<item id="10439" article="a" name="Divine robe">
 		<attribute key="slotType" value="body"/>
 		<attribute key="absorbpercentfire" value="10"/>
 		<attribute key="absorbpercentdeath" value="10" />

@@ -96,7 +96,6 @@ monster.loot = {
 	{name = "red robe", chance = 80},
 	{name = "pirate voodoo doll", chance = 1730},
 	{id = 6089, chance = 700},
-	{name = "lunar staff", chance = 120},
 	{name = "amber staff", chance = 680},
 	{name = "cultish robe", chance = 10080},
 	{name = "cultish symbol", chance = 90},

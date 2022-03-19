@@ -84,7 +84,6 @@ monster.loot = {
 	{name = "silver amulet", chance = 1020},
 	{name = "wand of cosmic energy", chance = 636},
 	{name = "throwing star", chance = 9900, maxCount = 5},
-	{name = "obsidian lance", chance = 3571},
 	{name = "guardian shield", chance = 243},
 	{name = "crystal sword", chance = 5882},
 	{name = "strong mana potion", chance = 7692},
