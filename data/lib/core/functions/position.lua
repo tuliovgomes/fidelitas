@@ -349,3 +349,13 @@ function Position:removeItem(itemId, effect)
 		Position(self):sendMagicEffect(effect)
 	end
 end
+
+function Position.sendMessage(self, message, talktype)
+    local specs = Game.getSpectators(self, false, true, 7, 7, 5, 5)
+    if #specs > 0 then
+        for i = 1, #specs do
+            local player = specs[i]
+            player:say(message, talktype or TALKTYPE_MONSTER_SAY, false, player, self)
+        end
+    end
+end
