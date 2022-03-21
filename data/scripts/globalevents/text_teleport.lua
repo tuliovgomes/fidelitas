@@ -12,8 +12,13 @@ local teleportText = GlobalEvent("Teleport Texts")
 
 function teleportText.onThink(interval, lastExecution)
 
+    local player = Game.getPlayers()[1]
+    if not player then
+        return true
+    end
+
     for text, position in pairs(positions) do
-        position:sendMessage(text)
+        player:say(text, TALKTYPE_MONSTER_SAY, false, nil, position)
         position:sendMagicEffect(CONST_ME_TUTORIALSQUARE)
         position:sendMagicEffect(CONST_ME_TUTORIALARROW)
     end
