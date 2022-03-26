@@ -18,7 +18,7 @@ monster.health = 205000
 monster.maxHealth = 205000
 monster.runHealth = 0
 monster.race = "blood"
-monster.corpse = 9107
+monster.corpse = 5798
 monster.speed = 850
 monster.summonCost = 0
 
@@ -102,7 +102,7 @@ monster.loot = {
 	{name = "great shield", chance = 1001},
 	{name = "golden armor", chance = 1001},
 	{name = "demonrage sword", chance = 1800},
-	-- {name = "crytal key", chance = 10000},
+	{name = "golden key", ActionId = "666", chance = 10000},
 	{name = "ice rapier", chance = 1900}
 }
 

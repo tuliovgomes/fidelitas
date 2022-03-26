@@ -16,7 +16,7 @@
 		<npc name="Carmadin Helter" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="1007" centery="1018" centerz="7" radius="1">
-		<npc name="homan the nadir" x="0" y="0" z="7" spawntime="60" />
+		<npc name="Homan The Nadir" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="997" centery="1021" centerz="7" radius="1">
 		<npc name="Rhagnar Ironside" x="0" y="0" z="7" spawntime="60" direction="2" />
