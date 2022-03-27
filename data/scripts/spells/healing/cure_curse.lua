@@ -1,11 +1,13 @@
 local combat = Combat()
+combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_HEALING)
 combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_BLUE)
-combat:setParameter(COMBAT_PARAM_DISPEL, CONDITION_CURSED)
+combat:setParameter(COMBAT_PARAM_DISPEL, CONDITION_PARALYZE)
 combat:setParameter(COMBAT_PARAM_AGGRESSIVE, false)
 
-
-function onGetFormulaValues(_player, level, magicLevel) -- already compared to the official tibia | compared date: 05/07/19(m/d/y)
-	return doCreatureAddHealth(_player, (_player:setHealth()-_player:getMaxHealth()/2))
+function onGetFormulaValues(player, level, magicLevel)
+	local min = (level * 12 + magicLevel * 18) + 50
+	local max = (level * 18 + magicLevel * 20) + 60
+	return min, max
 end
 
 combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
@@ -21,7 +23,7 @@ spell:words("exana mort")
 spell:group("healing")
 spell:vocation("knight;true", "elite knight;true")
 spell:id(147)
-spell:cooldown(6000)
+spell:cooldown(1500)
 spell:groupCooldown(1000)
 spell:level(80)
 spell:manaPercent(5)
