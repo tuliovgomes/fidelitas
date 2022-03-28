@@ -187,6 +187,7 @@ function Npc:parseBank(message, npc, creature, npcHandler)
 				"druidsample",
 				"sorcerersample",
 				"knightsample",
+				"minersample",
 				"paladinsample"
 			}
 			if isInArray(arrayDenied, string.gsub(transfer[playerId], " ", "")) then
