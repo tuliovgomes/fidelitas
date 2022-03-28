@@ -27,7 +27,8 @@ end
 spell:name("Creature Illusion")
 spell:words("utevo res ina")
 spell:group("support")
-spell:vocation("druid;true", "elder druid;true", "sorcerer;true", "master sorcerer;true")
+spell:vocation("druid;", "elder druid;", "Celtic Druid;", "Spirit Healer;", "sorcerer;", "master sorcerer;", "Archmage;", "Arcane Wizard;", "Divine Mage;")
+
 spell:id(38)
 spell:cooldown(2 * 1000)
 spell:groupCooldown(2 * 1000)

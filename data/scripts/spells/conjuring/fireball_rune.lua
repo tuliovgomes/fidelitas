@@ -7,7 +7,7 @@ end
 spell:name("Fireball Rune")
 spell:words("adori flam")
 spell:group("support")
-spell:vocation("sorcerer;true", "master sorcerer;true")
+spell:vocation("sorcerer;", "master sorcerer;", "Archmage;", "Arcane Wizard;", "Divine Mage;")
 spell:cooldown(2 * 1000)
 spell:groupCooldown(2 * 1000)
 spell:level(27)

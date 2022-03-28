@@ -7,7 +7,7 @@ end
 spell:name("Paralyze Rune")
 spell:words("adana ani")
 spell:group("support")
-spell:vocation("druid;true", "elder druid;true")
+spell:vocation("druid;", "elder druid;", "Celtic Druid;", "Spirit Healer;", "Divine Mage;")
 spell:cooldown(2 * 1000)
 spell:groupCooldown(2 * 1000)
 spell:level(54)

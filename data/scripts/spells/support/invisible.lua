@@ -15,7 +15,8 @@ end
 spell:name("Invisibility")
 spell:words("utana vid")
 spell:group("support")
-spell:vocation("druid;true", "elder druid;true", "sorcerer;true", "master sorcerer;true")
+spell:vocation("druid;", "elder druid;", "Celtic Druid;", "Spirit Healer;", "sorcerer;", "master sorcerer;", "Archmage;", "Arcane Wizard;", "Divine Mage;")
+
 spell:id(45)
 spell:cooldown(2 * 1000)
 spell:groupCooldown(2 * 1000)

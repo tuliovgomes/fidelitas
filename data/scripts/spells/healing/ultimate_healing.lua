@@ -21,7 +21,8 @@ end
 spell:name("Ultimate Healing")
 spell:words("exura vita")
 spell:group("healing")
-spell:vocation("druid;true", "elder druid;true", "sorcerer;true", "master sorcerer;true")
+spell:vocation("druid;", "elder druid;", "Celtic Druid;", "Spirit Healer;", "sorcerer;", "master sorcerer;", "Archmage;", "Arcane Wizard;", "Divine Mage;")
+
 spell:id(3)
 spell:cooldown(1 * 1000)
 spell:groupCooldown(1 * 1000)

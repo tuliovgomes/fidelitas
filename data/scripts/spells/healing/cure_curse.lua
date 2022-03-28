@@ -21,7 +21,7 @@ end
 spell:name("Cure Curse")
 spell:words("exana mort")
 spell:group("healing")
-spell:vocation("knight;true", "elite knight;true")
+spell:vocation("knight;", "elite knight;", "Templar Knight;", "Chaos Knight;", "Miner;", "Blacksmith;", "Weaponsmith;", "Artisan Weaponsmith;", "Divine Warrior;")
 spell:id(147)
 spell:cooldown(1500)
 spell:groupCooldown(1000)

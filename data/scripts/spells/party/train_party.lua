@@ -72,7 +72,7 @@ end
 spell:name("Train Party")
 spell:words("utito mas sio")
 spell:group("support")
-spell:vocation("knight;true", "elite knight;true")
+spell:vocation("knight;", "elite knight;", "Templar Knight;", "Chaos Knight;", "Miner;", "Blacksmith;", "Weaponsmith;", "Artisan Weaponsmith;", "Divine Warrior;")
 spell:id(126)
 spell:cooldown(2 * 1000)
 spell:groupCooldown(2 * 1000)
