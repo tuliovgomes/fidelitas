@@ -2,14 +2,37 @@
 <familiars>
 	<!-- Familiars sorcerrers -->
 	<familiar vocation="1" lookType="994" name="Thundergiant" premium="yes" unlocked="no" enabled="yes" />
+	<familiar vocation="6" lookType="994" name="Thundergiant" premium="yes" unlocked="no" enabled="yes" />
+	<familiar vocation="11" lookType="994" name="Thundergiant" premium="yes" unlocked="no" enabled="yes" />
+	<familiar vocation="16" lookType="994" name="Thundergiant" premium="yes" unlocked="no" enabled="yes" />
+	<familiar vocation="21" lookType="994" name="Thundergiant" premium="yes" unlocked="no" enabled="yes" />
 
 	<!-- Familiars druids -->
 	<familiar vocation="2" lookType="993" name="Grovebeast" premium="no" unlocked="no" enabled="yes" />
+	<familiar vocation="7" lookType="993" name="Grovebeast" premium="no" unlocked="no" enabled="yes" />
+	<familiar vocation="12" lookType="993" name="Grovebeast" premium="no" unlocked="no" enabled="yes" />
+	<familiar vocation="17" lookType="993" name="Grovebeast" premium="no" unlocked="no" enabled="yes" />
+	<familiar vocation="21" lookType="993" name="Grovebeast" premium="no" unlocked="no" enabled="yes" />
 
 	<!-- Familiars paladins -->
 	<familiar vocation="3" lookType="992" name="Emberwing" premium="no" unlocked="no" enabled="yes" />
+	<familiar vocation="8" lookType="992" name="Emberwing" premium="no" unlocked="no" enabled="yes" />
+	<familiar vocation="13" lookType="992" name="Emberwing" premium="no" unlocked="no" enabled="yes" />
+	<familiar vocation="18" lookType="992" name="Emberwing" premium="no" unlocked="no" enabled="yes" />
+	<familiar vocation="22" lookType="992" name="Emberwing" premium="no" unlocked="no" enabled="yes" />
 
 	<!-- Familiars knights -->
 	<familiar vocation="4" lookType="991" name="Skullfrost" premium="yes" unlocked="no" enabled="yes" />
+	<familiar vocation="9" lookType="991" name="Skullfrost" premium="yes" unlocked="no" enabled="yes" />
+	<familiar vocation="14" lookType="991" name="Skullfrost" premium="yes" unlocked="no" enabled="yes" />
+	<familiar vocation="19" lookType="991" name="Skullfrost" premium="yes" unlocked="no" enabled="yes" />
+	<familiar vocation="23" lookType="991" name="Skullfrost" premium="yes" unlocked="no" enabled="yes" />
+
+	<!-- Familiars Miner -->
+	<familiar vocation="5" lookType="991" name="Skullfrost" premium="yes" unlocked="no" enabled="yes" />
+	<familiar vocation="10" lookType="991" name="Skullfrost" premium="yes" unlocked="no" enabled="yes" />
+	<familiar vocation="15" lookType="991" name="Skullfrost" premium="yes" unlocked="no" enabled="yes" />
+	<familiar vocation="20" lookType="991" name="Skullfrost" premium="yes" unlocked="no" enabled="yes" />
+	<familiar vocation="23" lookType="991" name="Skullfrost" premium="yes" unlocked="no" enabled="yes" />
 
 </familiars>

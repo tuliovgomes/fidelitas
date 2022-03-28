@@ -49,10 +49,14 @@ for i = 45, 60 do
 							specCreature:addCondition(condition1)
 						end
 
+						if specCreature:isMiner() then
+							specCreature:addCondition(condition1)
+						end
+
 						if specCreature:isMage() then
 							specCreature:addCondition(condition2)
 						end
-						
+
 						if specCreature:isPaladin() then
 							specCreature:addCondition(condition3)
 						end

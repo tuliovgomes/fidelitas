@@ -316,6 +316,16 @@ function Player.isKnight(self)
 	}, self:getVocation():getId())
 end
 
+function Player.isMiner(self)
+	return table.contains({
+		VOCATION.ID.MINER,
+		VOCATION.ID.BLACKSMITH,
+		VOCATION.ID.WEAPONSMITH,
+		VOCATION.ID.ARTISAN_WEAPONSMITH,
+		VOCATION.ID.DIVINE_WARRIOR
+	}, self:getVocation():getId())
+end
+
 function Player.isPaladin(self)
 	return table.contains({
 		VOCATION.ID.PALADIN,
