@@ -1783,7 +1783,7 @@
 		<attribute key="charges" value="200"/>
 		<attribute key="weight" value="500"/>
 	</item>
-	<item id="816" article="a" name="Aghanim pendant">
+	<item id="816" article="a" name="aghanim pendant">
 		<attribute key="slotType" value="necklace"/>
 		<attribute key="showCharges" value="1"/>
 		<attribute key="showAttributes" value="1"/>
@@ -1821,7 +1821,7 @@
 			<attribute key="increase speed" value="3"/>
 		</attribute>
 	</item>
-	<item id="820" name="Aghanim boots">
+	<item id="820" name="aghanim boots">
 		<attribute key="slotType" value="feet"/>
 		<attribute key="armor" value="2" />
 		<attribute key="ManaGain" value="4" />
@@ -1838,7 +1838,7 @@
 		<attribute key="absorbPercentFire" value="6" />
 		<attribute key="weight" value="1900"/>
 	</item>
-	<item id="822" name="Aghanim legs">
+	<item id="822" name="aghanim legs">
 		<attribute key="slotType" value="legs"/>
 		<attribute key="ManaGain" value="4" />
 		<attribute key="ManaTicks" value="3000" />
@@ -1859,7 +1859,7 @@
 		<attribute key="weight" value="2250"/>
 		<attribute key="upgradeclassification" value="2"/>
 	</item>
-	<item id="825" article="a" name="Aghanim robe">
+	<item id="825" article="a" name="aghanim robe">
 		<attribute key="slotType" value="body"/>
 		<attribute key="ManaGain" value="4" />
 		<attribute key="ManaTicks" value="3000" />
@@ -1882,7 +1882,7 @@
 		<attribute key="weight" value="1000"/>
 		<attribute key="upgradeclassification" value="2"/>
 	</item>
-	<item id="828" article="a" name="Aghanim mask">
+	<item id="828" article="a" name="aghanim mask">
 		<attribute key="slotType" value="head"/>
 		<attribute key="ManaGain" value="4" />
 		<attribute key="ManaTicks" value="3000" />
@@ -6265,7 +6265,7 @@
 			<attribute key="skillboost club" value="3"/>
 		</attribute>
 	</item>
-	<item id="3313" article="an" name="Aiglos">
+	<item id="3313" article="an" name="aiglos">
 		<attribute key="weight" value="2200" />
 		<attribute key="attack" value="68" />
 		<attribute key="weaponType" value="distance" />
@@ -14319,7 +14319,7 @@
 		<attribute key="description" value="Collect enough of these to trade them for valuable prizes"/>
 		<attribute key="weight" value="5"/>
 	</item>
-	<item id="6527" name="Narsil">
+	<item id="6527" name="narsil">
 		<attribute key="weight" value="6400" />
 		<attribute key="defense" value="45" />
 		<attribute key="attack" value="71" />
@@ -15762,7 +15762,7 @@
 		<attribute key="weight" value="4200"/>
 		<attribute key="upgradeclassification" value="2"/>
 	</item>
-	<item id="7410" article="a" name="Mekansm">
+	<item id="7410" article="a" name="mekansm">
 		<attribute key="weaponType" value="wand"/>
 		<attribute key="shootType" value="holy"/>
 		<attribute key="shootType" value="smallholy"/>
@@ -15943,7 +15943,7 @@
 			<attribute key="skillboost club" value="3"/>
 		</attribute>
 	</item>
-	<item id="7424" article="a" name="Aghanim's Scepter">
+	<item id="7424" article="a" name="aghanim's Scepter">
 		<attribute key="weight" value="3800" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="death" />
@@ -17305,7 +17305,7 @@
 		<attribute key="weight" value="3100"/>
 		<attribute key="upgradeclassification" value="2"/>
 	</item>
-	<item id="8063" article="a" name="Legolas Plate">
+	<item id="8063" article="a" name="legolas plate">
 		<attribute key="slotType" value="body"/>
 		<attribute key="skilldist" value="8"/>
 		<attribute key="absorbPercentAll" value="6" />
@@ -18493,7 +18493,7 @@
 		<attribute key="containersize" value="8"/>
 		<attribute key="weight" value="800"/>
 	</item>
-	<item id="8862" article="a" name="Valar plate">
+	<item id="8862" article="a" name="valar plate">
 		<attribute key="slotType" value="body"/>
 		<attribute key="armor" value="21"/>
 		<attribute key="weight" value="7000"/>
@@ -18504,14 +18504,14 @@
 		<attribute key="skillShield" value="4" />
 		<attribute key="upgradeclassification" value="2"/>
 	</item>
-	<item id="8863" article="a" name="Valar kilt">
+	<item id="8863" article="a" name="valar kilt">
 		<attribute key="slotType" value="legs"/>
 		<attribute key="absorbpercentmagic" value="6" />
 		<attribute key="skilldist" value="2"/>
 		<attribute key="armor" value="8"/>
 		<attribute key="weight" value="6500"/>
 	</item>
-	<item id="8864" article="a" name="Valar mask">
+	<item id="8864" article="a" name="valar mask">
 		<attribute key="slotType" value="head"/>
 		<attribute key="magicpoints" value="6"/>
 		<attribute key="absorbpercentelements" value="6" />
@@ -20176,7 +20176,7 @@
 		<attribute key="decayTo" value="9392"/>
 		<attribute key="weight" value="500"/>
 	</item>
-	<item id="9399" article="a" name="Magic steel helmet">
+	<item id="9399" article="a" name="magic steel helmet">
 		<attribute key="description" value="This helmet spawns green stars. Awesome"/>
 		<attribute key="slotType" value="head"/>
 		<attribute key="armor" value="12"/>
@@ -21841,7 +21841,7 @@
 		<attribute key="weight" value="2350"/>
 		<attribute key="upgradeclassification" value="2"/>
 	</item>
-	<item id="10439" article="a" name="Divine robe">
+	<item id="10439" article="a" name="divine robe">
 		<attribute key="slotType" value="body"/>
 		<attribute key="absorbpercentfire" value="10"/>
 		<attribute key="absorbpercentdeath" value="10" />
