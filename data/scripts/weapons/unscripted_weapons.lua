@@ -96,7 +96,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -110,7 +110,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -124,6 +124,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -138,6 +142,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -152,6 +160,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -166,6 +178,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -180,6 +196,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -194,6 +214,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -248,7 +272,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -262,6 +286,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -276,6 +304,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -290,6 +322,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -304,6 +340,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -318,6 +358,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -364,7 +408,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -410,7 +454,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -424,7 +468,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -438,6 +482,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -452,6 +500,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -466,6 +518,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -480,6 +536,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -494,6 +554,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -508,6 +572,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -522,6 +590,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -541,6 +613,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -555,7 +631,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -569,6 +645,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -615,6 +695,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -629,6 +713,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -643,6 +731,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -657,7 +749,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -696,6 +788,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -710,6 +806,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -724,6 +824,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -738,7 +842,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -850,6 +954,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -864,6 +972,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -878,6 +990,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -892,7 +1008,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -938,6 +1054,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -994,7 +1114,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -1008,7 +1128,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -1022,6 +1142,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -1036,6 +1160,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -1050,6 +1178,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -1064,6 +1196,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -1078,6 +1214,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -1092,6 +1232,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -1767,7 +1911,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -1781,7 +1925,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -1795,6 +1939,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -1809,6 +1957,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -1823,6 +1975,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -1837,6 +1993,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -1851,6 +2011,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -1865,6 +2029,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -1911,7 +2079,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -1925,7 +2093,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -1939,6 +2107,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -1953,6 +2125,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -1967,6 +2143,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -1981,6 +2161,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -1995,6 +2179,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2009,6 +2197,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2055,7 +2247,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2069,7 +2261,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2083,6 +2275,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2097,6 +2293,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2111,6 +2311,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2125,6 +2329,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2139,6 +2347,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2153,6 +2365,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2167,7 +2383,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2181,7 +2397,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2337,6 +2553,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2351,6 +2571,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2366,6 +2590,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2430,7 +2658,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2444,7 +2672,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2458,7 +2686,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2472,7 +2700,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2486,7 +2714,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2500,7 +2728,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2514,6 +2742,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2528,6 +2760,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2542,6 +2778,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2556,6 +2796,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2570,6 +2814,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2584,6 +2832,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2598,6 +2850,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2612,6 +2868,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2626,6 +2886,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2640,6 +2904,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2654,6 +2922,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2668,6 +2940,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2682,6 +2958,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2696,6 +2976,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2710,6 +2994,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2724,6 +3012,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2738,6 +3030,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2752,6 +3048,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2772,7 +3072,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2793,6 +3093,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -2863,7 +3167,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2877,7 +3181,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3014,7 +3318,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3051,7 +3355,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3065,7 +3369,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3137,7 +3441,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3216,6 +3520,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -3237,6 +3545,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -3251,6 +3563,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -3272,6 +3588,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -3338,6 +3658,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -3366,6 +3690,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -3394,6 +3722,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -3518,7 +3850,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3532,7 +3864,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3546,7 +3878,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3560,7 +3892,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3574,7 +3906,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3588,7 +3920,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3602,7 +3934,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3616,7 +3948,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3630,7 +3962,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3644,7 +3976,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3674,6 +4006,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -3721,6 +4057,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -3736,6 +4076,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -3775,6 +4119,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -3790,6 +4138,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -3827,6 +4179,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -3874,6 +4230,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -3889,6 +4249,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -3928,6 +4292,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -3943,6 +4311,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4012,6 +4384,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4059,6 +4435,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4074,6 +4454,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4113,6 +4497,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4128,6 +4516,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4165,6 +4557,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4212,6 +4608,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4227,6 +4627,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4266,6 +4670,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4281,6 +4689,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4331,6 +4743,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4345,6 +4761,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4359,6 +4779,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4380,6 +4804,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4394,6 +4822,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4420,6 +4852,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4483,6 +4919,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4518,6 +4958,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4588,6 +5032,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4602,6 +5050,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4644,6 +5096,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4658,6 +5114,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4672,6 +5132,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4693,6 +5157,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4707,6 +5175,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4728,6 +5200,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4770,6 +5246,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4805,6 +5285,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4826,6 +5310,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4894,6 +5382,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4916,6 +5408,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -4935,7 +5431,7 @@ local weapons = {
 			{"Royal Paladin"},
 			{"Medieval Crossbowman"},
 			{"Spartan Spearman"},
-			{"Divine Warrior"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -5027,6 +5523,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -5048,6 +5548,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -5084,6 +5588,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -5112,6 +5620,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -5126,6 +5638,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -5150,6 +5666,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -5305,6 +5825,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -5324,6 +5848,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -5359,6 +5887,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -5432,6 +5964,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -5456,6 +5992,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -5477,6 +6017,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -5491,6 +6035,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -5516,6 +6064,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -5571,6 +6123,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
@@ -5585,6 +6141,10 @@ local weapons = {
 			{"Elite Knight"},
 			{"Templar Knight"},
 			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
 			{"Divine Warrior"}
 		}
 	},
