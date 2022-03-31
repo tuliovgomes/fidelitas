@@ -1,5 +1,20 @@
 <?xml version="1.0"?>
 <npcs>
+	<npc centerx="918" centery="868" centerz="7" radius="1">
+		<npc name="Bowman Legolas" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="959" centery="868" centerz="7" radius="1">
+		<npc name="Severus Snape" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="887" centery="871" centerz="7" radius="1">
+		<npc name="Nivadellir Ironside" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="956" centery="899" centerz="7" radius="1">
+		<npc name="Merlin Celtic" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="896" centery="902" centerz="7" radius="1">
+		<npc name="Jacques DeMolay" x="0" y="0" z="7" spawntime="60" />
+	</npc>
 	<npc centerx="992" centery="1010" centerz="7" radius="1">
 		<npc name="Hook Spearman" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</npc>
@@ -7,7 +22,7 @@
 		<npc name="Thor Holder" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</npc>
 	<npc centerx="1011" centery="1010" centerz="7" radius="1">
-		<npc name="Amenon at Ebano" x="0" y="0" z="7" spawntime="60" direction="2" />
+		<npc name="Homan The Nadir" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</npc>
 	<npc centerx="997" centery="1018" centerz="7" radius="1">
 		<npc name="Max The barbarian" x="0" y="0" z="7" spawntime="60" />
@@ -16,7 +31,7 @@
 		<npc name="Carmadin Helter" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="1007" centery="1018" centerz="7" radius="1">
-		<npc name="Homan The Nadir" x="0" y="0" z="7" spawntime="60" />
+		<npc name="Amenon at Ebano" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="997" centery="1021" centerz="7" radius="1">
 		<npc name="Rhagnar Ironside" x="0" y="0" z="7" spawntime="60" direction="2" />

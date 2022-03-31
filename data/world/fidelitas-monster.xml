@@ -373,10 +373,10 @@
 	<monster centerx="895" centery="1028" centerz="7" radius="3">
 		<monster name="Cobra Scout" x="3" y="3" z="7" spawntime="60" />
 	</monster>
-	<monster centerx="1082" centery="1031" centerz="7" radius="30">
-		<monster name="Energetic Book" x="0" y="-4" z="7" spawntime="60" direction="2" />
-		<monster name="Demon" x="11" y="7" z="7" spawntime="90" direction="2" />
-		<monster name="Cobra Assassin" x="14" y="7" z="7" spawntime="60" direction="2" />
+	<monster centerx="1087" centery="1034" centerz="7" radius="20">
+		<monster name="Energetic Book" x="-5" y="-7" z="7" spawntime="60" direction="2" />
+		<monster name="Demon" x="6" y="4" z="7" spawntime="90" direction="2" />
+		<monster name="Cobra Assassin" x="9" y="4" z="7" spawntime="60" direction="2" />
 	</monster>
 	<monster centerx="984" centery="1099" centerz="7" radius="3">
 		<monster name="Hellhound" x="3" y="-3" z="7" spawntime="90" />

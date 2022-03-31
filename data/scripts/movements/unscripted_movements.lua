@@ -9088,14 +9088,14 @@ local items = {
 		itemid = 8082,
 		type = "equip",
 		slot = "hand",
-		level = 42
+		level = 150
 	},
 	{
 		-- underworld rod
 		itemid = 8082,
 		type = "deequip",
 		slot = "hand",
-		level = 42
+		level = 150
 	},
 	{
 		-- terran rainbow shield

@@ -3740,7 +3740,7 @@ local weapons = {
 		-- hellforged axe
 		itemid = 8096,
 		type = WEAPON_AXE,
-		level = 110,
+		level = 200,
 		unproperly = true
 	},
 	{
@@ -4870,7 +4870,7 @@ local weapons = {
 		-- royal axe
 		itemid = 7434,
 		type = WEAPON_AXE,
-		level = 75,
+		level = 150,
 		unproperly = true
 	},
 	{
@@ -5043,7 +5043,7 @@ local weapons = {
 		-- titan axe
 		itemid = 7413,
 		type = WEAPON_AXE,
-		level = 40,
+		level = 150,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
