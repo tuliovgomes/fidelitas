@@ -15799,10 +15799,10 @@
 			<attribute key="skillboost axe" value="3"/>
 		</attribute>
 	</item>
-	<item id="7413" article="a" name="titan axe">
+	<item id="7413" article="a" name="dramborleg">
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="slotType" value="two-handed"/>
-		<attribute key="attack" value="43"/>
+		<attribute key="attack" value="53"/>
 		<attribute key="defense" value="30"/>
 		<attribute key="weight" value="8100"/>
 		<attribute key="upgradeclassification" value="2"/>
@@ -16059,7 +16059,7 @@
 		<attribute key="weight" value="5500"/>
 		<attribute key="upgradeclassification" value="4"/>
 	</item>
-	<item id="7434" article="a" name="royal axe">
+	<item id="7434" article="a" name="axe of Frerin">
 		<attribute key="description" value="This axe is only granted to a warlord of the Svargrond arena"/>
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="attack" value="47"/>
