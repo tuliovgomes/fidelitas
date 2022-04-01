@@ -43,7 +43,7 @@ npcConfig.shop = {
 	{ itemName = "eldritch quiver", clientId = 35524, buy = 4000000 },
 	{ itemName = "bow", clientId = 3350, sell = 130 },
 	{ itemName = "jungle quiver", clientId = 35524, sell = 200000 },
-	{ itemName = "eldritch quiver", clientId = 35524, sell = 400000 },
+	{ itemName = "eldritch quiver", clientId = 36666, sell = 400000 },
 	{ itemName = "aiglos", clientId = 3313, sell = 100000 },
 	{ itemName = "crossbow", clientId = 3349, sell = 160 },
 	{ itemName = "spear", clientId = 3277, sell = 3 },

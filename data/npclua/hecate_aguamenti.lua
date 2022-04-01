@@ -41,8 +41,8 @@ npcConfig.shop = {
 	{ itemName = "wand of inferno", clientId = 3071, buy = 4000},
 	{ itemName = "glacial rod", clientId = 16118, buy = 56000},
 	{ itemName = "everblazing fire", clientId = 16115, buy = 56000},
-	{ itemName = "wand of dragonbreath", clientId = 2191, buy = 266},
-	{ itemName = "moonlight rod", clientId = 2186, buy = 266},
+	{ itemName = "wand of dragonbreath", clientId = 3075, buy = 266},
+	{ itemName = "moonlight rod", clientId = 3070, buy = 266},
 }
 
 -- On buy npc shop message

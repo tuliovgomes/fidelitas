@@ -44,7 +44,7 @@ npcConfig.shop = {
 	{ itemName = "wyvern fang", clientId = 7408, sell = 1300},
 	{ itemName = "wyvern fang", clientId = 7408, buy = 2300},
 	{ itemName = "bright Sword", clientId = 3295, buy = 10000},
-	{ itemName = "serpent sword", clientId = 3097, buy = 1500},
+	{ itemName = "serpent sword", clientId = 3297, buy = 1500},
 	{ itemName = "spike sword", clientId = 3271, buy = 700},
 }
 
