@@ -94,7 +94,7 @@ monster.loot = {
 	{name = "demonic essence", chance = 7500},
 	{name = "skeleton decoration", chance = 1250},
 	{name = "haunted blade", chance = 740},
-	{name = "titan axe", chance = 1000},
+	{name = "dramborleg", chance = 1000},
 	{name = "great mana potion", chance = 14200, maxCount = 2},
 	{name = "great health potion", chance = 8800, maxCount = 2},
 	{id = 8896, chance = 3500},

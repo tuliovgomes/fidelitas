@@ -85,7 +85,7 @@ monster.loot = {
 	{name = "crown helmet", chance = 890},
 	{name = "iron ore", chance = 15000},
 	{name = "magic sulphur", chance = 3000},
-	{name = "titan axe", chance = 2600},
+	{name = "dramborleg", chance = 2600},
 	{name = "glorious axe", chance = 1870},
 	{name = "strong health potion", chance = 15600, maxCount = 2},
 	{name = "strong mana potion", chance = 14000, maxCount = 2},

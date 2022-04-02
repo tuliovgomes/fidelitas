@@ -90,27 +90,61 @@ if Modules == nil then
 			error("StdModule.promotePlayer called without any npcHandler instance.")
 		end
 
+		local vocations = { --Items given depending on vocation [1] is vocation 1: sorcerer
+			[1] = {voc = 6, promo = 1, level = 35, cost = 20000},
+			[2] = {voc = 7, promo = 1, level = 35, cost = 20000},
+			[3] = {voc = 8, promo = 1, level = 35, cost = 20000},
+			[4] = {voc = 9, promo = 1, level = 35, cost = 20000},
+			[5] = {voc = 10, promo = 1, level = 35, cost = 20000},
+
+			[6] = {voc = 11, promo = 2, level = 101, cost = 200000},
+			[7] = {voc = 12, promo = 2, level = 101, cost = 200000},
+			[8] = {voc = 13, promo = 2, level = 101, cost = 200000},
+			[9] = {voc = 14, promo = 2, level = 101, cost = 200000},
+			[10] = {voc = 15, promo = 2, level = 101, cost = 200000},
+
+			[11] = {voc = 16, promo = 3, level = 400, cost = 2000000},
+			[12] = {voc = 17, promo = 3, level = 400, cost = 2000000},
+			[13] = {voc = 18, promo = 3, level = 400, cost = 2000000},
+			[14] = {voc = 19, promo = 3, level = 400, cost = 2000000},
+			[15] = {voc = 20, promo = 3, level = 400, cost = 2000000}
+
+			-- [16] = {21},
+			-- [17] = {21},
+			-- [18] = {22},
+			-- [19] = {23},
+			-- [20] = {23},
+		}
+
 		if not npcHandler:checkInteraction(npc, player) then
 			return false
 		end
-
-		local promo = parameters.promo
-		local storage = "STORAGEVALUE_PROMOTION" .. promo
-		local promotion = player:getVocation():getPromotion()
-		if player:getStorageValue(storage) == 1 then
-			npcHandler:say("You are already promoted!", npc, player)
-		elseif player:getLevel() < parameters.level then
-			npcHandler:say(string.format("I am sorry, but I can only promote you once you have reached level %d.",
-							parameters.level), npc, player)
-		elseif not player:removeMoneyBank(parameters.cost) then
-			npcHandler:say("You do not have enough money!", npc, player)
-		else
-			npcHandler:say(parameters.text, npc, player)
-			player:setVocation(promotion)
-			player:setStorageValue(storage, 1)
+		local param = vocations[player:getVocation():getId()]
+		if param == nil then
+			npcHandler:say("sorry but I dont have the necessary attributes to promote it here.", npc, player)
+			return true
 		end
-		npcHandler:resetNpc(player)
-		return true
+
+		if parameters.type == player:getVocation():getBaseId() then
+			local storage = "STORAGEVALUE_PROMOTION" .. param.promo
+			if player:getStorageValue(storage) == 1 then
+				npcHandler:say("You are already promoted!", npc, player)
+			elseif player:getLevel() < param.level then
+				npcHandler:say(string.format("I am sorry, but I can only promote you once you have reached level %d.", param.level), npc, player)
+			elseif not player:removeMoneyBank(param.cost) then
+				npcHandler:say("You do not have enough money!", npc, player)
+			else
+				npcHandler:say(parameters.text, npc, player)
+				player:setVocation(param.voc)
+				player:setStorageValue(storage, 1)
+				npcHandler:say("congratulations! Now you are one promotion closer to being a divine!", npc, player)
+			end
+			npcHandler:resetNpc(player)
+			return true
+		else
+			npcHandler:say("sorry but I dont have the necessary attributes to promote it here.", npc, player)
+			return true
+		end
 	end
 
 	function StdModule.learnSpell(npc, player, message, keywords, parameters, node)

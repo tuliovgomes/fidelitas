@@ -86,7 +86,7 @@ monster.loot = {
 	{name = "Small Emerald", chance = 15110, maxCount = 3},
 	{name = "Onyx Arrow", chance = 14480, maxCount = 15},
 	{name = "Small Topaz", chance = 4580, maxCount = 3},
-	{name = "Titan Axe", chance = 3000},
+	{name = "dramborleg", chance = 3000},
 	{id = 282, chance = 3000},
 	{name = "Spiked Squelcher", chance = 2200},
 	{name = "Knight Armor", chance = 1980},
