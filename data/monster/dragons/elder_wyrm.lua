@@ -85,7 +85,6 @@ monster.loot = {
 	{name = "dragon ham", chance = 32420, maxCount = 2},
 	{name = "soul orb", chance = 5980},
 	{name = "dragonbone staff", chance = 100},
-	{name = "shadow sceptre", chance = 310},
 	{name = "strong health potion", chance = 17710},
 	{name = "strong mana potion", chance = 20930},
 	{name = "Aghanim pendant", chance = 520},

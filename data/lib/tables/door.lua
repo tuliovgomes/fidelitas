@@ -64,7 +64,6 @@ KeyDoorTable = {
 	{lockedDoor = 20452, closedDoor = 20453, openDoor = 20454},
 	{lockedDoor = 23873, closedDoor = 23874, openDoor = 23877},
 	{lockedDoor = 23875, closedDoor = 23876, openDoor = 23878},
-	{lockedDoor = 28364, closedDoor = 28365, openDoor = 28368},
 	{lockedDoor = 28366, closedDoor = 28367, openDoor = 28369},
 	{lockedDoor = 30772, closedDoor = 30773, openDoor = 30776},
 	{lockedDoor = 30774, closedDoor = 30775, openDoor = 30777}
@@ -109,6 +108,8 @@ CustomDoorTable = {
 	{closedDoor = 9359, openDoor = 9360},
 	{closedDoor = 9554, openDoor = 9555},
 	{closedDoor = 9563, openDoor = 9564},
+	{closedDoor = 28364, openDoor = 28368},
+	{closedDoor = 28365, openDoor = 28368},
 	{closedDoor = 11705, openDoor = 11708},
 	{closedDoor = 11714, openDoor = 11716},
 	{closedDoor = 12249, openDoor = 12250},

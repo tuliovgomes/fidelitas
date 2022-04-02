@@ -15998,19 +15998,16 @@
 		<attribute key="upgradeclassification" value="2"/>
 	</item>
 	<item id="7429" article="a" name="blessed sceptre">
-		<attribute key="description" value="This sceptre is only granted to a warlord of the Svargrond arena"/>
-		<attribute key="weaponType" value="club"/>
-		<attribute key="attack" value="47"/>
-		<attribute key="extradef" value="3"/>
-		<attribute key="defense" value="21"/>
-		<attribute key="weight" value="3900"/>
+		<attribute key="weight" value="3800" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="holy" />
+		<attribute key="range" value="10" />
 		<attribute key="upgradeclassification" value="2"/>
-		<attribute key="imbuementslot" value="2">
+		<attribute key="imbuementslot" value="3">
 			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
-			<attribute key="skillboost club" value="3"/>
 		</attribute>
 	</item>
 	<item id="7430" article="a" name="dragonbone staff">
@@ -16181,17 +16178,16 @@
 		<attribute key="upgradeclassification" value="4"/>
 	</item>
 	<item id="7451" article="a" name="shadow sceptre">
-		<attribute key="weaponType" value="club"/>
-		<attribute key="attack" value="39"/>
-		<attribute key="defense" value="17"/>
-		<attribute key="weight" value="4100"/>
+		<attribute key="weight" value="3800" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="energy" />
+		<attribute key="range" value="10" />
 		<attribute key="upgradeclassification" value="2"/>
-		<attribute key="imbuementslot" value="2">
+		<attribute key="imbuementslot" value="3">
 			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
 			<attribute key="critical hit" value="3"/>
-			<attribute key="skillboost club" value="3"/>
 		</attribute>
 	</item>
 	<item id="7452" article="a" name="spiked squelcher">
@@ -40129,19 +40125,10 @@
 	<item id="25757" article="a" name="diamond arrow">
 		<attribute key="ammotype" value="arrow"/>
 		<attribute key="attack" value="37"/>
-		<attribute key="decayTo" value="0"/>
-		<attribute key="duration" value="3600"/>
 		<attribute key="maxhitchance" value="100"/>
 		<attribute key="loottype" value="ammo" />
 		<attribute key="slotType" value="ammo"/>
-		<attribute key="ammotype" value="arrow"/>
 		<attribute key="shootType" value="diamondarrow"/>
-		<attribute key="stopduration" value="0"/>
-		<attribute key="showduration" value="1"/>
-		<attribute key="maxhitchance" value="100"/>
-		<attribute key="duration" value="3600"/>
-		<attribute key="decayTo" value="0"/>
-		<attribute key="attack" value="37"/>
 		<attribute key="weight" value="80"/>
 	</item>
 	<item id="25758" article="a" name="spectral bolt">
@@ -40149,10 +40136,8 @@
 		<attribute key="slotType" value="ammo"/>
 		<attribute key="ammotype" value="bolt"/>
 		<attribute key="shootType" value="spectralbolt"/>
-		<attribute key="stopduration" value="0"/>
 		<attribute key="showduration" value="1"/>
 		<attribute key="maxhitchance" value="100"/>
-		<attribute key="duration" value="3600"/>
 		<attribute key="weight" value="90"/>
 	</item>
 	<item id="25759" article="a" name="royal star">

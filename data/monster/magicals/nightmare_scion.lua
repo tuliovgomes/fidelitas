@@ -88,7 +88,6 @@ monster.loot = {
 	{id = 6299, chance = 250},
 	{name = "bar of chocolate", chance = 280},
 	{name = "diamond sceptre", chance = 340},
-	{name = "shadow sceptre", chance = 270},
 	{name = "focus cape", chance = 340},
 	{name = "crystal of focus", chance = 100},
 	{name = "essence of a bad dream", chance = 7692},

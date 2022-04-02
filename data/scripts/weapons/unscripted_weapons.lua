@@ -19,7 +19,22 @@ local weapons = {
 		wandType = "ice",
 		level = 200,
 		mana = 40,
-		damage = {70, 90},
+		damage = {150, 190},
+		vocation = {
+			{"Druid", true},
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
+		}
+	},
+	{
+		itemid = 7429,
+		type = WEAPON_WAND,
+		wandType = "holy",
+		level = 170,
+		mana = 40,
+		damage = {130, 150},
 		vocation = {
 			{"Druid", true},
 			{"Elder Druid"},
@@ -34,7 +49,22 @@ local weapons = {
 		wandType = "death",
 		level = 200,
 		mana = 40,
-		damage = {70, 90},
+		damage = {150, 190},
+		vocation = {
+			{"Sorcerer", true},
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
+		}
+	},
+	{
+		itemid = 7451,
+		type = WEAPON_WAND,
+		wandType = "energy",
+		level = 100,
+		mana = 30,
+		damage = {120, 130},
 		vocation = {
 			{"Sorcerer", true},
 			{"Master Sorcerer"},
@@ -4787,13 +4817,6 @@ local weapons = {
 		}
 	},
 	{
-		-- shadow sceptre
-		itemid = 7451,
-		type = WEAPON_CLUB,
-		level = 35,
-		unproperly = true
-	},
-	{
 		-- hammer of prophecy
 		itemid = 7450,
 		type = WEAPON_CLUB,
@@ -4899,13 +4922,6 @@ local weapons = {
 		itemid = 7430,
 		type = WEAPON_CLUB,
 		level = 30,
-		unproperly = true
-	},
-	{
-		-- blessed sceptre
-		itemid = 7429,
-		type = WEAPON_CLUB,
-		level = 75,
 		unproperly = true
 	},
 	{
