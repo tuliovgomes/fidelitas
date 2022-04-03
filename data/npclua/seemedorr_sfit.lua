@@ -47,7 +47,7 @@ npcConfig.shop = {
 	{ itemName = "stalagmite rune", clientId = 3179, buy = 12 },
 	{ itemName = "sudden death rune", clientId = 3155, buy = 135 },
 	{ itemName = "Rejuvenation Rune", clientId = 3159, buy = 425 },
-	{ itemName = "Diamond Dust rune", clientId = 3163, buy = 475 },
+	{ itemName = "Diamond Dust Rune", clientId = 3163, buy = 475 },
 	{ itemName = "Dharmas Chaos Rune", clientId = 3150, buy = 575 },
 	{ itemName = "Holy Missile Rune", clientId = 3182, buy = 375 },
 	{ itemName = "Fire Missile Rune", clientId = 3193, buy = 400 },
