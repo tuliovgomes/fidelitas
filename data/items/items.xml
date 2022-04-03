@@ -5338,9 +5338,11 @@
 		<attribute key="charges" value="5"/>
 		<attribute key="weight" value="42"/>
 	</item>
-	<item id="3159" article="a" name="spell rune">
+	<item id="3159" article="a" name="Rejuvenation Rune">
 		<attribute key="type" value="rune"/>
-		<attribute key="weight" value="120"/>
+		<attribute key="runespellname" value="adura gran vita"/>
+		<attribute key="charges" value="1"/>
+		<attribute key="weight" value="210"/>
 	</item>
 	<item id="3160" article="an" name="ultimate healing rune">
 		<attribute key="type" value="rune"/>
@@ -5354,9 +5356,11 @@
 		<attribute key="charges" value="4"/>
 		<attribute key="weight" value="52"/>
 	</item>
-	<item fromid="3162" toid="3163" article="a" name="spell rune">
+	<item id="3163" article="a" name="Diamond Dust Rune">
 		<attribute key="type" value="rune"/>
-		<attribute key="weight" value="120"/>
+		<attribute key="runespellname" value="adori gran frigo"/>
+		<attribute key="charges" value="3"/>
+		<attribute key="weight" value="42"/>
 	</item>
 	<item id="3164" article="an" name="energy field rune">
 		<attribute key="type" value="rune"/>
@@ -5480,7 +5484,9 @@
 	</item>
 	<item fromid="3193" toid="3194" article="a" name="spell rune">
 		<attribute key="type" value="rune"/>
-		<attribute key="weight" value="120"/>
+		<attribute key="runespellname" value="Fire Missile Rune"/>
+		<attribute key="charges" value="3"/>
+		<attribute key="weight" value="105"/>
 	</item>
 	<item id="3195" article="a" name="soulfire rune">
 		<attribute key="type" value="rune"/>
@@ -5514,9 +5520,11 @@
 		<attribute key="charges" value="6"/>
 		<attribute key="weight" value="35"/>
 	</item>
-	<item id="3201" article="a" name="spell rune">
+	<item id="3201" article="a" name="Great Magic Missile Rune">
 		<attribute key="type" value="rune"/>
-		<attribute key="weight" value="120"/>
+		<attribute key="runespellname" value="adori gran vis"/>
+		<attribute key="charges" value="6"/>
+		<attribute key="weight" value="35"/>
 	</item>
 	<item id="3202" article="a" name="thunderstorm rune">
 		<attribute key="type" value="rune"/>
@@ -40136,7 +40144,6 @@
 		<attribute key="slotType" value="ammo"/>
 		<attribute key="ammotype" value="bolt"/>
 		<attribute key="shootType" value="spectralbolt"/>
-		<attribute key="showduration" value="1"/>
 		<attribute key="maxhitchance" value="100"/>
 		<attribute key="weight" value="90"/>
 	</item>

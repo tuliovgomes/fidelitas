@@ -1859,7 +1859,7 @@ local weapons = {
 		-- royal star
 		itemid = 25759,
 		type = WEAPON_DISTANCE,
-		level = 500,
+		level = 800,
 		unproperly = true,
 	},
 	{
@@ -1868,15 +1868,13 @@ local weapons = {
 		type = WEAPON_AMMO,
 		level = 150,
 		unproperly = true,
-		action = "removecount"
 	},
 	{
 		-- leaf star
 		itemid = 25735,
 		type = WEAPON_DISTANCE,
-		level = 60,
+		level = 400,
 		unproperly = true,
-		breakchance = 40
 	},
 	{
 		-- dream blossom staff

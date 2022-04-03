@@ -4,10 +4,11 @@ combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_HOLYAREA)
 combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_HOLY)
 
 function onGetFormulaValues(player, level, magicLevel)
-	local min = (level / 5) + (magicLevel * 1.8) + 11
-	local max = (level / 5) + (magicLevel * 3.8) + 23
+	local min = (level / 5) + (magicLevel * 4.3) + 48
+	local max = (level / 5) + (magicLevel * 7.4) + 64
 	return -min, -max
 end
+
 
 combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
 
@@ -19,12 +20,11 @@ end
 
 spell:name("Holy Missile Rune")
 spell:group("attack")
-spell:vocation("paladin;true", "royal paladin")
 spell:id(130)
 spell:cooldown(2 * 1000)
 spell:groupCooldown(2 * 1000)
-spell:level(27)
-spell:magicLevel(4)
+spell:level(101)
+spell:magicLevel(18)
 spell:runeId(3182)
 spell:charges(5)
 spell:needTarget(true)
