@@ -20,11 +20,12 @@ local setting = {
 		health = {500, 600},
 		vocations = {
 			VOCATION.BASE_ID.KNIGHT,
+			VOCATION.BASE_ID.MINER,
 			VOCATION.BASE_ID.PALADIN
 		},
 		level = 50,
 		flask = 283,
-		description = "Only knights and paladins of level 50 or above may drink this fluid."
+		description = "Only knights, miners and paladins of level 50 or above may drink this fluid."
 	},
 	[237] = {
 		mana = {200, 385},
@@ -50,11 +51,12 @@ local setting = {
 	[239] = {
 		health = {525, 675},
 		vocations = {
-			VOCATION.BASE_ID.KNIGHT
+			VOCATION.BASE_ID.KNIGHT,
+			VOCATION.BASE_ID.MINER
 		},
 		level = 80,
 		flask = 284,
-		description = "Only knights of level 80 or above may drink this fluid."
+		description = "Only knights and miners of level 80 or above may drink this fluid."
 	},
 	[266] = {
 		health = {225, 375},
@@ -73,7 +75,8 @@ local setting = {
 	[7439] = {
 		condition = berserk,
 		vocations = {
-			VOCATION.BASE_ID.KNIGHT
+			VOCATION.BASE_ID.KNIGHT,
+			VOCATION.BASE_ID.MINER
 		},
 		effect = CONST_ME_MAGIC_RED,
 		description = "Only knights may drink this potion.", text = "You feel stronger."
@@ -107,11 +110,12 @@ local setting = {
 	[7643] = {
 		health = {850, 1250},
 		vocations = {
-			VOCATION.BASE_ID.KNIGHT
+			VOCATION.BASE_ID.KNIGHT,
+			VOCATION.BASE_ID.MINER
 		},
 		level = 130,
 		flask = 284,
-		description = "Only knights of level 130 or above may drink this fluid."
+		description = "Only knights and miners of level 130 or above may drink this fluid."
 	},
 	[7644] = {
 		antidote = true,
@@ -143,11 +147,12 @@ local setting = {
 	[23375] = {
 		health = {1875, 2125},
 		vocations = {
-			VOCATION.BASE_ID.KNIGHT
+			VOCATION.BASE_ID.KNIGHT,
+			VOCATION.BASE_ID.MINER
 		},
 		level = 200,
 		flask = 284,
-		description = "Only knights of level 200 or above may drink this fluid."
+		description = "Only knights and miners of level 200 or above may drink this fluid."
 	}
 }
 

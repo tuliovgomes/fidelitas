@@ -1,5 +1,5 @@
 local familiar = {
-	[VOCATION.BASE_ID.KNIGHT] = {name = "Knight familiar"}
+	[VOCATION.BASE_ID.MINER] = {name = "Miner familiar"}
 }
 
 local spell = Spell("instant")
@@ -54,12 +54,12 @@ end
 
 spell:group("support")
 spell:id(194)
-spell:name("Knight familiar")
-spell:words("utevo gran res eq")
+spell:name("Miner familiar")
+spell:words("utevo gran res mi")
 spell:level(200)
 spell:mana(1000)
 spell:cooldown(30 * 60 * 1000)
 spell:groupCooldown(2 * 1000)
 spell:needLearn(false)
-spell:vocation("knight;", "elite knight;", "Templar Knight;", "Chaos Knight;", "Divine Warrior;")
+spell:vocation("Miner;", "Blacksmith;", "Weaponsmith;", "Artisan Weaponsmith;", "Divine Warrior;")
 spell:register()
