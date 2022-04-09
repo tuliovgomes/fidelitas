@@ -2,7 +2,7 @@ FAMILIAR_ID = {
 	[VOCATION.BASE_ID.SORCERER] = {id = 994, name = "Sorcerer familiar"},
 	[VOCATION.BASE_ID.DRUID] = {id = 993, name = "Druid familiar"},
 	[VOCATION.BASE_ID.PALADIN] = {id = 992, name = "Paladin familiar"},
-	[VOCATION.BASE_ID.KNIGHT] = {id = 991, name = "Knight familiar"}
+	[VOCATION.BASE_ID.KNIGHT] = {id = 991, name = "Knight familiar"},
 	[VOCATION.BASE_ID.MINER] = {id = 991, name = "Miner familiar"}
 }
 
