@@ -81,7 +81,7 @@ monster.attacks = {
 	{name ="melee", interval = 1000, chance = 100, minDamage = -700, maxDamage = -900},
 	{name ="combat", interval = 2000, chance = 40, type = COMBAT_FIREDAMAGE, minDamage = -800, maxDamage = -1500},
 	{name ="combat", interval = 3000, chance = 95, type = COMBAT_FIREDAMAGE, minDamage = -1500, maxDamage = -2100},
-	{name ="Sudden Death", interval = 4000, chance = 60, minDamage = -450, maxDamage = -1450}
+	{name ="combat", interval = 5000, chance = 100, type = COMBAT_DEATHDAMAGE, minDamage = -1200, maxDamage = -1600, range = 10, radius = 7, target = false, effect = CONST_ME_MORTAREA},
 }
 
 monster.defenses = {
