@@ -18,7 +18,7 @@ monster.health = 230000
 monster.maxHealth = 230000
 monster.runHealth = 0
 monster.race = "fire"
-monster.corpse = 5984
+monster.corpse = 10445
 monster.speed = 300
 monster.summonCost = 0
 
@@ -92,14 +92,18 @@ monster.defenses = {
 
 monster.maxSummons = 1
 monster.summons = {
-	{name = "Dragon Lord", chance = 50, interval = 1000}
+	{name = "Son of Ancalagon", chance = 50, interval = 1000}
 }
 
 monster.loot = {
-	{id = 10221, chance = 1001},
-	{id = 10522, chance = 1001},
-	{id = 10718, chance = 1001},
-	{id = 2640, chance = 1800}
+	{name = "pair of soft boots", chance = 900},
+	{name = "great shield", chance = 1201},
+	{name = "khel thuzad skin", chance = 900},
+	{name = "ring of souls", chance = 202},
+	{name = "zenit cuirass", chance = 1600},
+	{name = "zenit helmet", chance = 1800},
+	{name = "zenit legs", chance = 1800},
+	{name = "zenit shoes", chance = 2100},
 }
 
 mType:register(monster)

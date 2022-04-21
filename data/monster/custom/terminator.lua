@@ -18,7 +18,7 @@ monster.health = 12200
 monster.maxHealth = 12200
 monster.runHealth = 0
 monster.race = "blood"
-monster.corpse = 10005
+monster.corpse = 9089
 monster.speed = 265
 monster.summonCost = 0
 
@@ -106,6 +106,13 @@ monster.loot = {
 			{id = 2377, chance = 6000}
 		}
 	}
+}
+
+monster.loot = {
+	{name = "pair of soft boots", chance = 1200},
+	{name = "great shield", chance = 1001},
+	{name = "magic plate armor", chance = 900},
+	{name = "golden legs", chance = 902},
 }
 
 mType:register(monster)

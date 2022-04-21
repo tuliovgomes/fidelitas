@@ -18,7 +18,7 @@ monster.health = 15225
 monster.maxHealth = 15225
 monster.runHealth = 0
 monster.race = "blood"
-monster.corpse = 6080
+monster.corpse = 18266
 monster.speed = 370
 monster.summonCost = 0
 
@@ -102,19 +102,15 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 3972, chance = 3444},
-	{id = 2348, chance = 1},
-	{id = 2518, chance = 3400},
-	{id = 1987, chance = 100000, child = {
-			{id = 2148, chance = 100000},
-			{id = 2150, chance = 5000, maxCount = 3},
-			{id = 2148, chance = 100000},
-			{id = 2436, chance = 4011},
-			{id = 2656, chance = 3300},
-			{id = 8879, chance = 500}
-		}
-	}
+	{name = "small ruby", chance = 50000, maxCount = 40},
+	{name = "small diamond", chance = 50000, maxCount = 36},
+	{name = "firewalker boots", chance = 200},
+	{name = "magic plate armor", chance = 1001},
+	{name = "valar mask", chance = 100},
+	{name = "Valar kilt", chance = 302},
+	{name = "valar plate", chance = 250},
+	{name = "pharaoh sword", chance = 1800},
+	{name = "amulet of loss", chance = 1900},
 }
 
 mType:register(monster)

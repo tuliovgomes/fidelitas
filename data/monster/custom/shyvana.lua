@@ -90,15 +90,14 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2474, chance = 1000},
-	{id = 8885, chance = 611},
-	{id = 2432, chance = 2011},
-	{id = 2470, chance = 1000},
-	{id = 2472, chance = 1100, child = {
-			{id = 2640, chance = 900, description = "soft boots"},
-			{id = 2522, chance = 1200, description = "great shield"}
-		}
-	}
+	{name = "pair of soft boots", chance = 900},
+	{name = "great shield", chance = 1201},
+	{name = "demon helmet", chance = 900},
+	{name = "demon armor", chance = 702},
+	{name = "demon legs", chance = 600},
+	{name = "winged boots", chance = 1800},
+	{name = "winged helmet", chance = 1800},
+	{name = "amulet of loss", chance = 2100},
 }
 
 mType:register(monster)

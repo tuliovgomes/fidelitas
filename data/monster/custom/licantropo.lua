@@ -99,11 +99,13 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = 8752, chance = 1000},
-	{id = 10521, chance = 1001},
-	{id = 11234, chance = 1003},
-	{id = 6132, chance = 2300},
-	{id = 8889, chance = 1100}
+	{name = "golden armor", chance = 1600},
+	{name = "great shield", chance = 1001},
+	{name = "gandalf ring", chance = 1200},
+	{name = "magic steel helmet", chance = 1702},
+	{name = "winged boots", chance = 1200},
+	{name = "pharaoh sword", chance = 1800},
+	{name = "pair of soft boots", chance = 1900},
 }
 
 mType:register(monster)

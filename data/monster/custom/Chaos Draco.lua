@@ -90,20 +90,31 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 1987, chance = 100000, child = {
-			{id = 6500, chance = 1818},
-			{id = 5944, chance = 1538},
-			{id = 2547, chance = 4000, maxCount = 15},
-			{id = 2466, chance = 1088},
-			{id = 2407, chance = 3400},
-			{id = 2495, chance = 1001},
-			{id = 2516, chance = 3444},
-			{id = 5741, chance = 3441}
-		}
-	}
+	{name = "golden mug", chance = 6002},
+	{name = "black pearl", chance = 22780, maxCount = 2},
+	{name = "small sapphire", chance = 28370, maxCount = 2},
+	{name = "gold coin", chance = 35500, maxCount = 100},
+	{name = "gold coin", chance = 55500, maxCount = 98},
+	{name = "platinum coin", chance = 52000, maxCount = 5},
+	{name = "life crystal", chance = 2500},
+	{name = "war axe", chance = 1290},
+	{name = "golden armor", chance = 860},
+	{name = "knight armor", chance = 5500},
+	{name = "royal helmet", chance = 1720},
+	{name = "power bolt", chance = 15190, maxCount = 15},
+	{name = "hardened bone", chance = 14180},
+	{id = 6299, chance = 1150},
+	{name = "demonic essence", chance = 12460},
+	{name = "assassin star", chance = 26650, maxCount = 5},
+	{name = "dragon slayer", chance = 860},
+	{name = "dragonbone staff", chance = 4000},
+	{name = "great mana potion", chance = 21490},
+	{name = "great health potion", chance = 21200},
+	{name = "divine plate", chance = 430},
+	{name = "skullcracker armor", chance = 290},
+	{name = "gold ingot", chance = 570},
+	{name = "unholy bone", chance = 33380},
+	{name = "spellweaver's robe", chance = 860}
 }
 
 mType:register(monster)

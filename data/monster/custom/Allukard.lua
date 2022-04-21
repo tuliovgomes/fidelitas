@@ -18,7 +18,7 @@ monster.health = 25205
 monster.maxHealth = 25205
 monster.runHealth = 0
 monster.race = "blood"
-monster.corpse = 9660
+monster.corpse = 8744
 monster.speed = 250
 monster.summonCost = 0
 
@@ -96,19 +96,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 1, maxCount = 84, description = "gps"},
-	{id = 7588, chance = 1, description = "strong health potion"},
-	{id = 7589, chance = 1, description = "strong mana potion"},
-	{id = 2145, chance = 4000, description = "small diamond"},
-	{id = 2127, chance = 4000, description = "esmerald blange"},
-	{id = 1987, chance = 100000, child = {
-			{id = 2186, chance = 1, description = "moonlight rod"},
-			{id = 2489, chance = 5000, description = "da"},
-			{id = 2534, chance = 1201, description = "vs"},
-			{id = 2446, chance = 1200, description = "ps"},
-			{id = 9777, chance = 900, description = "valar kilt"}
-		}
-	}
+	{name = "gold coin", chance = 50000, maxCount = 100},
+	{name = "strong health potion", chance = 3000, maxCount = 50},
+	{name = "strong mana potion", chance = 2500, maxCount = 80},
+	{name = "small diamond", chance = 4000},
+	{name = "esmerald blange", chance = 4000},
+	{name = "pharaoh sword", chance = 1800},
+	{name = "valar kilt", chance = 900},
 }
 
 mType:register(monster)

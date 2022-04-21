@@ -97,17 +97,12 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 1987, chance = 100000, child = {
-			{id = 2150, chance = 5000, maxCount = 3},
-			{id = 2474, chance = 1000},
-			{id = 8885, chance = 611},
-			{id = 2432, chance = 3011}
-		}
-	}
+	{name = "small ruby", chance = 50000, maxCount = 40},
+	{name = "small diamond", chance = 50000, maxCount = 36},
+	{name = "molten plate", chance = 900},
+	{name = "magma legs", chance = 702},
+	{name = "winged helmet", chance = 1800},
+	{name = "ring of the sky", chance = 2100},
 }
 
 mType:register(monster)

@@ -18,7 +18,7 @@ monster.health = 23200
 monster.maxHealth = 23200
 monster.runHealth = 300
 monster.race = "blood"
-monster.corpse = 8307
+monster.corpse = 949
 monster.speed = 350
 monster.summonCost = 390
 
@@ -94,17 +94,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 4000, maxCount = 71},
-	{id = 2146, chance = 1000},
-	{id = 2666, chance = 2000, maxCount = 4},
-	{id = 2214, chance = 1000},
-	{id = 7391, chance = 1200},
-	{id = 1987, chance = 100000, child = {
-			{id = 2672, chance = 2000, maxCount = 3},
-			{id = 7888, chance = 1000},
-			{id = 8887, chance = 800}
-		}
-	}
+	{name = "small emerald", chance = 50000, maxCount = 40},
+	{name = "small sapphire", chance = 50000, maxCount = 36},
+	{name = "blue legs", chance = 1500},
+	{name = "frozen plate", chance = 702},
+	{name = "winged boots", chance = 702},
+	{name = "aghanim legs", chance = 1600},
+	{name = "aghanim boots", chance = 1800},
+	{name = "aghanim robe", chance = 1800},
+	{name = "aghanim mask", chance = 1800},
 }
 
 mType:register(monster)
