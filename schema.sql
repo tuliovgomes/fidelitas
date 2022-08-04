@@ -1,3 +1,4 @@
+use canary;
 -- Canary - Database (Schema)
 
 -- Table structure `server_config`

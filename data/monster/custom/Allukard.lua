@@ -100,7 +100,6 @@ monster.loot = {
 	{name = "strong health potion", chance = 3000, maxCount = 50},
 	{name = "strong mana potion", chance = 2500, maxCount = 80},
 	{name = "small diamond", chance = 4000},
-	{name = "esmerald blange", chance = 4000},
 	{name = "pharaoh sword", chance = 1800},
 	{name = "valar kilt", chance = 900},
 }

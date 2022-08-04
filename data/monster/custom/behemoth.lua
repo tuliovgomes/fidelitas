@@ -101,7 +101,6 @@ monster.loot = {
 	{name = "behemoth claw", chance = 430},
 	{name = "assassin star", chance = 9750, maxCount = 5},
 	{id = 7396, chance = 170},
-	{name = "titan axe", chance = 90},
 	{name = "great health potion", chance = 5120},
 	{name = "battle stone", chance = 14000}
 }

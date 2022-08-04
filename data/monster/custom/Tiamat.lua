@@ -96,10 +96,10 @@ monster.summons = {
 }
 
 monster.loot = {
-	{name = "pair of soft boots", chance = 900},
+	{id = 6529, chance = 900},
 	{name = "great shield", chance = 1201},
 	{name = "khel thuzad skin", chance = 900},
-	{name = "ring of souls", chance = 202},
+	{id = 32635, chance = 202},
 	{name = "zenit cuirass", chance = 1600},
 	{name = "zenit helmet", chance = 1800},
 	{name = "zenit legs", chance = 1800},

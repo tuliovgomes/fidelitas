@@ -101,9 +101,9 @@ monster.loot = {
 	{name = "Valar plate", chance = 903},
 	{name = "Valar kilt", chance = 802},
 	{id = 9019, chance = 901},
-	-- {name = "aiglos", chance = 605},
+	{name = "aiglos", chance = 605},
 	{name = "cerberus shield", chance = 906},
-	-- {name = "narsil", chance = 507}
+	{name = "narsil", chance = 507}
 }
 
 mType.onThink = function(monster, interval)

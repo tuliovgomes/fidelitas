@@ -90,7 +90,7 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{name = "pair of soft boots", chance = 900},
+	{id = 6529, chance = 900},
 	{name = "great shield", chance = 1201},
 	{name = "demon helmet", chance = 900},
 	{name = "demon armor", chance = 702},

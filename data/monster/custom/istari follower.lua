@@ -104,7 +104,7 @@ monster.summons = {
 monster.loot = {
 	{name = "small ruby", chance = 50000, maxCount = 40},
 	{name = "small diamond", chance = 50000, maxCount = 36},
-	{name = "firewalker boots", chance = 200},
+	{id = 9019, chance = 200},
 	{name = "magic plate armor", chance = 1001},
 	{name = "valar mask", chance = 100},
 	{name = "Valar kilt", chance = 302},
